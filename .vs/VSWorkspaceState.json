@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Proyecto-CS-View",
     "\\Proyecto-CS-View\\Controllers",
     "\\Proyecto-CS-View\\Pages"
   ],
-  "SelectedNode": "\\Proyecto-CS-View\\Controllers\\PruebaConexionController.cs",
+  "SelectedNode": "\\Proyecto-CS.Repository",
   "PreviewInSolutionExplorer": false
 }
