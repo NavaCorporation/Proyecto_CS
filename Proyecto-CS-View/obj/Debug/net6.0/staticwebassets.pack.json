@@ -5,12 +5,44 @@
       "PackagePath": "staticwebassets\\Proyecto-CS.View.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\css\\Style.css",
+      "PackagePath": "staticwebassets\\css\\Style.css"
+    },
+    {
+      "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\css\\StyleAgregar.css",
+      "PackagePath": "staticwebassets\\css\\StyleAgregar.css"
+    },
+    {
       "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\css\\styleBuscar.css",
+      "PackagePath": "staticwebassets\\css\\styleBuscar.css"
+    },
+    {
       "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\cog.png",
+      "PackagePath": "staticwebassets\\img\\imgAgregar\\cog.png"
+    },
+    {
+      "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\foto.jpg",
+      "PackagePath": "staticwebassets\\img\\imgAgregar\\foto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\menu.png",
+      "PackagePath": "staticwebassets\\img\\imgAgregar\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\search.png",
+      "PackagePath": "staticwebassets\\img\\imgAgregar\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\user.png",
+      "PackagePath": "staticwebassets\\img\\imgAgregar\\user.png"
     },
     {
       "Id": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\js\\site.js",

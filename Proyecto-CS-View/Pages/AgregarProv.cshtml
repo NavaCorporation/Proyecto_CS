@@ -1,0 +1,151 @@
+﻿@page
+@model AgregarProvModel
+@{
+    ViewData["Title"] = "Agregar Proveedor";
+}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">TUERCA Y TORNILLOS S.A</h1>
+    </header>
+    <nav class="nav">
+        <div class="items-nav">
+            <img class="img" src="~/img/imgAgregar/menu.png" alt="">
+            <img class="img" src="~/img/imgAgregar/search.png" alt="">
+            <img class="img" src="~/img/imgAgregar/cog.png" alt="">
+            <img class="img" src="~/img/imgAgregar/user.png" alt="">
+        </div>
+        <div class="fecha">
+            <time datetime="2023-11-06T15:30:00">09:21 a.m</time>
+            <time datetime="2023-11-06">29 de junio 2023</time>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="contenedor-lista">
+            <ul class="lista">
+                <li class="item">Proveedor</li>
+                <li class="item">Producto</li>
+                <li class="item">Busqueda</li>
+                <li class="item">Factura</li>
+                <li class="item">Estado del pedido</li>
+            </ul>
+        </div>
+        <div class="tablas">
+            <div class="contenido">
+                <h2 class="tablas__title">Agregar Proveedor</h2>
+                <div class="formulario">
+                    <div class="campo">
+                        <label for="codigoProveedor">Codigo de proveedor</label>
+                        <input type="text" id="codigoProveedor" name="codigoProveedor" value="0001">
+                    </div>
+                    <div class="campo">
+                        <label for="ruc">Ruc</label>
+                        <input type="text" id="ruc" name="ruc" value="0993235792001">
+                    </div>
+                    <div class="campo">
+                        <label for="cedula">Cédula</label>
+                        <input type="text" id="cedula" name="cedula" value="0993235792">
+
+                    </div>
+                    <div class="campo-imagen">
+                        <img src="~/img/imgAgregar/foto.jpg" alt="Foto" width="250px">
+                    </div>
+
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" value="Manuel">
+                    </div>
+                    <div class="campo">
+                        <label for="apellidoPaterno">Apellido (Paterno)</label>
+                        <input type="text" id="apellidoPaterno" name="apellidoPaterno" value="Suarez">
+                    </div>
+                    <div class="campo">
+                        <label for="apellidoMaterno">Apellido (Materno)</label>
+                        <input type="text" id="apellidoMaterno" name="apellidoMaterno" value="Avila">
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" id="telefono" name="telefono" value="3121">
+                    </div>
+                    <div class="campo">
+                        <label for="localidad">Localidad</label>
+                        <input type="text" id="localidad" name="localidad" value="Conchinchina">
+                    </div>
+                    <div class="campo">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" id="direccion" name="direccion" value="Calle 90b">
+                    </div>
+                    <div class="campo">
+                        <label for="ciudad2"> </label>
+                    </div>
+
+
+                    <div class="campo">
+                        <label for="ciudad2">Ciudad</label>
+                        <input type="text" id="ciudad2" name="ciudad2" value="Azuay">
+                    </div>
+
+
+                    <div class="campo">
+                        <label for="razonSocial">Razón Social</label>
+                        <input type="text" id="razonSocial" name="razonSocial" value="Ferreteria el martillo S.A">
+                    </div>
+                </div>
+                <button id="openModal3Button" class="btn">Agregar</button>
+                <button class="btn">Cancelar</button>
+            </div>
+        </div>
+    </section>
+    <div id="modal3" class="modal" style="display: none">
+        <div class="modal-content">
+            <div class="modal-column">
+                <ul>
+                    <li><strong>Código Proveedor:</strong> Valor del Código</li>
+                    <li><strong>RUC:</strong> Valor del RUC</li>
+                    <li><strong>Cédula:</strong> Valor de la Cédula</li>
+                    <li><strong>Nombre:</strong> Valor del Nombre</li>
+                    <li><strong>Apellido:</strong> Valor del Apellido</li>
+                    <li><strong>Apellido Materno:</strong> Valor del Apellido Materno</li>
+                </ul>
+            </div>
+            <div class="modal-column">
+                
+                <ul>
+                    <li><strong>Teléfono:</strong> Valor del Teléfono</li>
+                    <li><strong>Email:</strong> Valor del Email</li>
+                    <li><strong>Dirección:</strong> Valor de la Dirección</li>
+                    <li><strong>Ciudad:</strong> Valor de la Ciudad</li>
+                    <li><strong>Razón Social:</strong> Valor de la Razón Social</li>
+                </ul>
+            </div>
+            <div class="modal-column">
+                
+                <img src="images/foto.jpg" alt="Proveedor">
+            </div>
+            <button id="closeModal3" class="btn">Cerrar</button>
+        </div>
+    </div>
+    <script>
+        const openModal3Button = document.getElementById("openModal3Button");
+        const modal3 = document.getElementById("modal3");
+        const closeModal3 = document.getElementById("closeModal3");
+    
+        openModal3Button.addEventListener("click", () => {
+            modal3.style.display = "flex";
+        });
+    
+        closeModal3.addEventListener("click", () => {
+            modal3.style.display = "none";
+        });
+    </script>
+</body>
+
+</html>
