@@ -9,40 +9,36 @@
       "PackagePath": "staticwebassets\\css\\Style.css"
     },
     {
-      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\css\\StyleAgregar.css",
-      "PackagePath": "staticwebassets\\css\\StyleAgregar.css"
-    },
-    {
       "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\css\\styleBuscar.css",
-      "PackagePath": "staticwebassets\\css\\styleBuscar.css"
     },
     {
       "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\cog.png",
-      "PackagePath": "staticwebassets\\img\\imgAgregar\\cog.png"
+      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\cog.png",
+      "PackagePath": "staticwebassets\\img\\imgIcon\\cog.png"
     },
     {
-      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\foto.jpg",
-      "PackagePath": "staticwebassets\\img\\imgAgregar\\foto.jpg"
+      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\foto.jpeg",
+      "PackagePath": "staticwebassets\\img\\imgIcon\\foto.jpeg"
     },
     {
-      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\menu.png",
-      "PackagePath": "staticwebassets\\img\\imgAgregar\\menu.png"
+      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\foto.jpg",
+      "PackagePath": "staticwebassets\\img\\imgIcon\\foto.jpg"
     },
     {
-      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\search.png",
-      "PackagePath": "staticwebassets\\img\\imgAgregar\\search.png"
+      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\menu.png",
+      "PackagePath": "staticwebassets\\img\\imgIcon\\menu.png"
     },
     {
-      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\user.png",
-      "PackagePath": "staticwebassets\\img\\imgAgregar\\user.png"
+      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\search.png",
+      "PackagePath": "staticwebassets\\img\\imgIcon\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\user.png",
+      "PackagePath": "staticwebassets\\img\\imgIcon\\user.png"
     },
     {
       "Id": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\js\\site.js",
