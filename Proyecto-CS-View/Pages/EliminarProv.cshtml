@@ -1,0 +1,167 @@
+﻿@page
+@model EliminarProvModel
+@{
+    ViewBag.Title = "Eliminar Prov";
+}
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">TUERCA Y TORNILLOS S.A</h1>
+    </header>
+    <nav class="nav">
+      <div class="items-nav">
+        <img class="img" src="~/img/imgIcon/menu.png" alt="" />
+        <img class="img" src="~/img/imgIcon/search.png" alt="" />
+        <img class="img" src="~/img/imgIcon/cog.png" alt="" />
+        <img class="img" src="~/img/imgIcon/user.png" alt="" />
+      </div>
+      <div class="fecha">
+        <time datetime="2023-11-06T15:30:00">09:21 a.m</time>
+        <time datetime="2023-11-06">29 de junio 2023</time>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="contenedor-lista">
+        <ul class="lista">
+          <li class="item">Proveedor</li>
+          <li class="item">Producto</li>
+          <li class="item">Busqueda</li>
+          <li class="item">Factura</li>
+          <li class="item">Estado del pedido</li>
+        </ul>
+      </div>
+      <div class="tablas">
+        <div class="contenido">
+          <h2 class="tablas__title">Eliminar Proveedor</h2>
+          <div class="con-busqueda">
+            <label for="busqueda">Buscar mediante Cédula</label>
+            <input
+              type="text"
+              id="busqueda"
+              name="busqueda"
+              placeholder="Buscar Cedula..."
+            />
+            <button class="btn-lupa" id="searchButton" type="button">
+              <img src="~/img/imgIcon/search.png" alt="Buscar" />
+            </button>
+          </div>
+          <table class="tabla">
+            <thead>
+              <tr>
+                <th style="width: 20px"></th>
+                <th style="width: 16%">Código proveedor</th>
+                <th style="width: 16%">Cédula</th>
+                <th style="width: 16%">Apellido(Paterno)</th>
+                <th style="width: 16%">Apellido(Materno)</th>
+                <th style="width: 16%">Nombre</th>
+                <th style="width: 16%">ruc</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input class="checkbox" type="checkbox" /></td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+                <td>Fila 1</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <button id="showModalBtn" class="btn">Eliminar</button>
+          <button class="btn">Cancelar</button>
+        </div>
+      </div>
+    </section>
+    <div id="modal" class="modal" style="display: none">
+      <div class="modal-content">
+        <p class="texto-modal">
+          Datos del proveedor <br />
+          correctamnete <br />
+          eliminado
+        </p>
+
+        <button id="acceptBtn" class="btn">Aceptar</button>
+        <button id="closeModal" class="btn">Cerrar</button>
+      </div>
+    </div>
+    <div id="modal2" class="modal" style="display: none">
+      <div class="modal-content">
+        <p class="texto-modal2">ERROR DE <br> BUSQUEDA</p>
+        <P>EL REGISTRO BUSCADO NO <br> SE ENCUENTRA REGISTRADO </P>
+        <button id="acceptBtn2" class="btn">Aceptar</button>
+        <button id="closeModal2" class="btn">Cerrar</button>
+      </div>
+    </div>
+
+    <script>
+      const showModalBtn = document.getElementById("showModalBtn");
+      const modal = document.getElementById("modal");
+      const closeModal = document.getElementById("closeModal");
+
+      showModalBtn.addEventListener("click", () => {
+        modal.style.display = "flex";
+      });
+
+      closeModal.addEventListener("click", () => {
+        modal.style.display = "none";
+      });
+      const searchButton = document.getElementById("searchButton");
+      const modal2 = document.getElementById("modal2");
+      const closeModal2 = document.getElementById("closeModal2");
+
+      searchButton.addEventListener("click", () => {
+        modal2.style.display = "flex";
+      });
+
+      closeModal2.addEventListener("click", () => {
+        modal2.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
