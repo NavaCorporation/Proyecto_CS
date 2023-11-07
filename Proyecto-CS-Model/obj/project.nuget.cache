@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "E/QbIxJADG22stqwudldnZaRxM6VRTy7qhXiydfcTXVGEHN9SpwQ9hdBbMzJ9xV2FJ2hTs6QXmnaY5555G1KNw==",
+  "dgSpecHash": "JtSsABEwvKMRCZSoZRGYqcpSBxEBBNYMYWxIm3z0kds5gI6iuwipOTsQqFwxWbOJnbFbm7ctx4l3A7+9umdXJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-Model\\Proyecto-CS.Models.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-Model\\Proyecto-CS.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512"
+  ],
   "logs": []
 }
