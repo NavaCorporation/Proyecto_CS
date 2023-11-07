@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(186, 187, 201);
+    background-color: #fff9e0;
     border-radius: 10%;
     width: 100%;
     margin: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background-color: rgb(103, 112, 241);
+    background-color: #f6c213;
     display: flex;
     justify-content: center;
 }
@@ -87,23 +87,23 @@ ul {
 }
 
 .lista .item:nth-child(2) {
-    background-color: rgb(103, 112, 241);
+    background-color: #f6c213;
 }
 
 .lista .item:nth-child(3) {
-    background-color: rgb(89, 99, 240);
+    background-color: #f6c213;
 }
 
 .lista .item:nth-child(4) {
-    background-color: rgb(103, 112, 241);
+    background-color: #f6c213;
 }
 
 .lista .item:nth-child(5) {
-    background-color: rgb(89, 99, 240);
+    background-color: #f6c213;
 }
 
 .contenido {
-    background-color: rgb(231, 231, 231);
+    background-color: #f7f4e9;
     height: 95%;
     margin: 10px;
     border: solid black;
