@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jseiXF9Bp0HxfebHrvkbDRHbcD62fAB38K6XmW444tc=",
+  "Hash": "GnojCTQGVqX1iJk10bxsBKw+2cBJUz1jg1KjJQcxROw=",
   "Source": "Proyecto-CS.View",
   "BasePath": "_content/Proyecto-CS.View",
   "Mode": "Default",
@@ -85,40 +85,6 @@
       "OriginalItemSpec": "wwwroot\\css\\Style.css"
     },
     {
-      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\css\\StyleAgregar.css",
-      "SourceId": "Proyecto-CS.View",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\",
-      "BasePath": "_content/Proyecto-CS.View",
-      "RelativePath": "css/StyleAgregar.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\StyleAgregar.css"
-    },
-    {
-      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\css\\styleBuscar.css",
-      "SourceId": "Proyecto-CS.View",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\",
-      "BasePath": "_content/Proyecto-CS.View",
-      "RelativePath": "css/styleBuscar.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styleBuscar.css"
-    },
-    {
       "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\favicon.ico",
       "SourceId": "Proyecto-CS.View",
       "SourceType": "Discovered",
@@ -136,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\cog.png",
+      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\cog.png",
       "SourceId": "Proyecto-CS.View",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\",
       "BasePath": "_content/Proyecto-CS.View",
-      "RelativePath": "img/imgAgregar/cog.png",
+      "RelativePath": "img/imgIcon/cog.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imgAgregar\\cog.png"
+      "OriginalItemSpec": "wwwroot\\img\\imgIcon\\cog.png"
     },
     {
-      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\foto.jpg",
+      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\foto.jpeg",
       "SourceId": "Proyecto-CS.View",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\",
       "BasePath": "_content/Proyecto-CS.View",
-      "RelativePath": "img/imgAgregar/foto.jpg",
+      "RelativePath": "img/imgIcon/foto.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imgAgregar\\foto.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imgIcon\\foto.jpeg"
     },
     {
-      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\menu.png",
+      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\foto.jpg",
       "SourceId": "Proyecto-CS.View",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\",
       "BasePath": "_content/Proyecto-CS.View",
-      "RelativePath": "img/imgAgregar/menu.png",
+      "RelativePath": "img/imgIcon/foto.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imgAgregar\\menu.png"
+      "OriginalItemSpec": "wwwroot\\img\\imgIcon\\foto.jpg"
     },
     {
-      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\search.png",
+      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\menu.png",
       "SourceId": "Proyecto-CS.View",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\",
       "BasePath": "_content/Proyecto-CS.View",
-      "RelativePath": "img/imgAgregar/search.png",
+      "RelativePath": "img/imgIcon/menu.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imgAgregar\\search.png"
+      "OriginalItemSpec": "wwwroot\\img\\imgIcon\\menu.png"
     },
     {
-      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgAgregar\\user.png",
+      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\search.png",
       "SourceId": "Proyecto-CS.View",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\",
       "BasePath": "_content/Proyecto-CS.View",
-      "RelativePath": "img/imgAgregar/user.png",
+      "RelativePath": "img/imgIcon/search.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,7 +184,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imgAgregar\\user.png"
+      "OriginalItemSpec": "wwwroot\\img\\imgIcon\\search.png"
+    },
+    {
+      "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\img\\imgIcon\\user.png",
+      "SourceId": "Proyecto-CS.View",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\",
+      "BasePath": "_content/Proyecto-CS.View",
+      "RelativePath": "img/imgIcon/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\imgIcon\\user.png"
     },
     {
       "Identity": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\Proyecto-CS-View\\wwwroot\\js\\site.js",

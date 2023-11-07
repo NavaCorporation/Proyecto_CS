@@ -9,65 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyecto_CS_View
 build_property.RootNamespace = Proyecto_CS_View
-build_property.ProjectDir = C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-View\
+build_property.ProjectDir = C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\Proyecto-CS-View\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-View
+build_property.MSBuildProjectDirectory = C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\Proyecto-CS-View
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/AgregarProv.cshtml]
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/AgregarProv.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdyZWdhclByb3YuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/BuscarProv.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVzY2FyUHJvdi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/Conexion.cshtml]
+=======
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/Conexion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZXhpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/EliminarProv.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWxpbWluYXJQcm92LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/Error.cshtml]
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/Error.cshtml]
+>>>>>>> 129d2a513b7d5a731b112f1d013dc18683091c42
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/Index.cshtml]
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/Index1.cshtml]
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/Index1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/ModificarProv.cshtml]
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/ModificarProv.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZpY2FyUHJvdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/MostrarProv.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9zdHJhclByb3YuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/Privacy.cshtml]
+=======
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/Privacy.cshtml]
+>>>>>>> 129d2a513b7d5a731b112f1d013dc18683091c42
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/_ViewImports.cshtml]
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/_ViewStart.cshtml]
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nava/source/repos/Proyecto_CS/Proyecto-CS-View/Pages/Shared/_Layout.cshtml]
+[C:/Users/steve/Desktop/proyectoCS/Proyecto_CS/Proyecto-CS-View/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dk5t8yu5xa
