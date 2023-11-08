@@ -1,0 +1,16 @@
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\obj\Debug\AuthTesting.csproj.AssemblyReference.cache
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\obj\Debug\AuthTesting.csproj.CoreCompileInputs.cache
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\AuthTesting.exe.config
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\AuthTesting.exe
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\AuthTesting.pdb
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\xunit.abstractions.dll
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\xunit.assert.dll
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\xunit.core.dll
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\xunit.execution.desktop.dll
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\xunit.abstractions.xml
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\xunit.assert.xml
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\xunit.core.xml
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\bin\Debug\xunit.execution.desktop.xml
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\obj\Debug\AuthTesting.csproj.CopyComplete
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\obj\Debug\AuthTesting.exe
+C:\Users\nava\source\repos\Proyecto_CS\AuthTesting\obj\Debug\AuthTesting.pdb

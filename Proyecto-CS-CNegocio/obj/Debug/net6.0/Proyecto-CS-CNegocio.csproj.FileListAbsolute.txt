@@ -1,0 +1,15 @@
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\bin\Debug\net6.0\Proyecto-CS-CNegocio.deps.json
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\bin\Debug\net6.0\Proyecto-CS-CNegocio.dll
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\bin\Debug\net6.0\Proyecto-CS-CNegocio.pdb
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\bin\Debug\net6.0\ProyectoCS-CDatos.dll
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\bin\Debug\net6.0\ProyectoCS-CDatos.pdb
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\Proyecto-CS-CNegocio.csproj.AssemblyReference.cache
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\Proyecto-CS-CNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\Proyecto-CS-CNegocio.AssemblyInfoInputs.cache
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\Proyecto-CS-CNegocio.AssemblyInfo.cs
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\Proyecto-CS-CNegocio.csproj.CoreCompileInputs.cache
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\Proyecto-CS-CNegocio.csproj.CopyComplete
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\Proyecto-CS-CNegocio.dll
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\refint\Proyecto-CS-CNegocio.dll
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\Proyecto-CS-CNegocio.pdb
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\ref\Proyecto-CS-CNegocio.dll
