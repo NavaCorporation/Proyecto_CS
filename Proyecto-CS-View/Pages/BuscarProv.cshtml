@@ -1,4 +1,4 @@
-﻿﻿@page
+﻿@page
 @model BuscarProvModel
 @{
     ViewBag.Title = "Buscar Proveedor";
@@ -6,15 +6,19 @@
 
 <html lang="en">
   <head>
+    <!-- Encabezado del documento -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="~/css/style.css" />
   </head>
   <body>
+    <!-- Cuerpo del documento -->
+    <!-- Encabezado de la página -->
     <header class="header">
       <h1 class="title">TUERCA Y TORNILLOS S.A</h1>
     </header>
+    <!-- Barra de navegación -->
     <nav class="nav">
       <div class="items-nav">
         <img class="img" src="~/img/imgIcon/menu.png" alt="" />
@@ -27,7 +31,9 @@
         <time datetime="2023-11-06">29 de junio 2023</time>
       </div>
     </nav>
+    <!-- Contenido principal de la página -->
     <section class="section">
+        <!-- Lista de elementos -->
       <div class="contenedor-lista">
         <ul class="lista">
           <li class="item">Proveedor</li>
@@ -37,6 +43,7 @@
           <li class="item">Estado del pedido</li>
         </ul>
       </div>
+        <!-- Formulario de "Agregar Proveedor" -->
       <div class="tablas">
         <div class="contenido">
           <h2 class="tablas__title">Buscar Proveedor</h2>
@@ -48,6 +55,8 @@
               name="busqueda"
               placeholder="Buscar Cedula..."
             />
+                    <!-- Otros campos del formulario -->
+                    <!-- Botones del formulario -->
             <button class="btn-lupa" id="searchButton" type="button">
               <img src="~/img/imgIcon/search.png" alt="Buscar" />
             </button>
@@ -116,7 +125,7 @@
         </div>
       </div>
     </section>
-   
+    <!-- Modal -->
     <div id="modal2" class="modal" style="display: none">
       <div class="modal-content">
         <p class="texto-modal2">ERROR DE <br> BUSQUEDA</p>
@@ -125,7 +134,7 @@
         <button id="closeModal2" class="btn">Cerrar</button>
       </div>
     </div>
-
+    <!-- Script JavaScript para controlar el modal -->
     <script>
       const searchButton = document.getElementById("searchButton");
       const modal2 = document.getElementById("modal2");
@@ -141,3 +150,4 @@
     </script>
   </body>
 </html>
+<!-- Código comentado y firmado por AstaGhost -->

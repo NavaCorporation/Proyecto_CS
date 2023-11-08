@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="~/css/style.css"> <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="~/css/style.css">
 </head>
+
 <body>
     <header class="header">
         <h1 class="title">TUERCA Y TORNILLOS S.A</h1>
@@ -50,6 +51,7 @@
                         <label for="cedula">Cedula</label>
                         <input type="text" id="cedula" name="cedula" value="0951679562">
 
+                    </div>
                     <div class="campo-imagen">
                         <img src="~/img/imgIcon/foto.jpeg" alt="Foto" width="250px">
                     </div>
@@ -66,6 +68,34 @@
                         <label for="apellidoMaterno">Apellido (Materno)</label>
                         <input type="text" id="apellidoMaterno" name="apellidoMaterno" value="Montesdeoca">
                     </div>
+                    <div class="campo">
+                        <label for="telefono">Telefono</label>
+                        <input type="text" id="telefono" name="telefono" value="0963662053">
+                    </div>
+                    <div class="campo">
+                        <label for="localidad">localidad</label>
+                        <input type="text" id="localidad" name="localidad" value="Martha de Roldos ">
+                    </div>
+                    <div class="campo">
+                        <label for="direccion">Direccion</label>
+                        <input type="text" id="direccion" name="direccion" value="Calle 90b">
+                    </div>
+                    <div class="campo">
+                        <label for="ciudad2"> </label>
+                    </div>
+
+
+                    <div class="campo">
+                        <label for="ciudad2">Ciudad</label>
+                        <input type="text" id="ciudad2" name="ciudad2" value="Guayaquil">
+                    </div>
+
+
+                    <div class="campo">
+                        <label for="razonSocial">Razon Social</label>
+                        <input type="text" id="razonSocial" name="razonSocial" value="Ferreteria el martillo S.A">
+                    </div>
+                </div>
                 <button id="openModal3Button" class="btn">Agregar</button>
                 <button class="btn">Cancelar</button>
             </div>
@@ -84,7 +114,7 @@
                 </ul>
             </div>
             <div class="modal-column">
-                
+
                 <ul>
                     <li><strong>Teléfono:</strong> Valor del Teléfono</li>
                     <li><strong>Email:</strong> Valor del Email</li>
@@ -94,7 +124,7 @@
                 </ul>
             </div>
             <div class="modal-column">
-                
+
                 <img src="images/foto.jpg" alt="Proveedor">
             </div>
             <button id="closeModal3" class="btn">Cerrar</button>
@@ -104,11 +134,11 @@
         const openModal3Button = document.getElementById("openModal3Button");
         const modal3 = document.getElementById("modal3");
         const closeModal3 = document.getElementById("closeModal3");
-    
+
         openModal3Button.addEventListener("click", () => {
             modal3.style.display = "flex";
         });
-    
+
         closeModal3.addEventListener("click", () => {
             modal3.style.display = "none";
         });

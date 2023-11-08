@@ -22,7 +22,7 @@ namespace Proyecto_CS.DAL
         {
             // Obtiene la cadena de conexión desde la configuración usando la clave "cadenaSQL".
             string cadenaConexion = _configuration.GetConnectionString("cadenaSQL");
-            // Crea y devuelve una nueva instancia de SqlConnection con la cadena de conexión especificada.
+            // Crea y devuelve una nueva instancia de SqlConnection con la cadena de conexión especificada. Att//NavaCorp
             return new SqlConnection(cadenaConexion);
         }
     }
