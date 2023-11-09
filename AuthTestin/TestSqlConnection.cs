@@ -6,7 +6,7 @@ namespace AuthTestin
     public class Tests
     {
 
-        private string connectionString = "Data Source=NAVARRETE\\SQLEXPRESS;Initial Catalog=Proyecto_CS;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+        private string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Repository\\Database.mdf;Integrated Security=True";
 
         [Test]
         public void TestDatabaseConnection()
