@@ -103,3 +103,8 @@ C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0
 C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrMainClient.resources
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrMainClient.resources
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.Properties.Resources.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmProveedor.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmBuscarProveedor.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmEliminarProveedor.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmMostrarProveedor.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmPrincipalProveedor.resources

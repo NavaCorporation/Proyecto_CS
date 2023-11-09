@@ -31,6 +31,7 @@
             panelG1 = new Panel();
             panelLogin1 = new Panel();
             panelLogin2 = new Panel();
+            txtPass = new TextBox();
             txtUser = new TextBox();
             lbPass = new Label();
             lbUser = new Label();
@@ -39,7 +40,6 @@
             btnInicioS = new Button();
             pictureBox1 = new PictureBox();
             label1 = new Label();
-            txtPass = new TextBox();
             panelG1.SuspendLayout();
             panelLogin1.SuspendLayout();
             panelLogin2.SuspendLayout();
@@ -58,7 +58,7 @@
             // 
             // panelLogin1
             // 
-            panelLogin1.BackColor = SystemColors.ActiveCaption;
+            panelLogin1.BackColor = Color.FromArgb(246, 194, 19);
             panelLogin1.BorderStyle = BorderStyle.FixedSingle;
             panelLogin1.Controls.Add(panelLogin2);
             panelLogin1.Location = new Point(271, 43);
@@ -68,7 +68,7 @@
             // 
             // panelLogin2
             // 
-            panelLogin2.BackColor = SystemColors.ButtonHighlight;
+            panelLogin2.BackColor = Color.FromArgb(247, 244, 233);
             panelLogin2.BorderStyle = BorderStyle.FixedSingle;
             panelLogin2.Controls.Add(txtPass);
             panelLogin2.Controls.Add(txtUser);
@@ -83,6 +83,14 @@
             panelLogin2.Name = "panelLogin2";
             panelLogin2.Size = new Size(342, 497);
             panelLogin2.TabIndex = 0;
+            // 
+            // txtPass
+            // 
+            txtPass.Location = new Point(108, 282);
+            txtPass.Name = "txtPass";
+            txtPass.PasswordChar = '*';
+            txtPass.Size = new Size(172, 23);
+            txtPass.TabIndex = 11;
             // 
             // txtUser
             // 
@@ -132,19 +140,20 @@
             // 
             // btnInicioS
             // 
-            btnInicioS.BackColor = SystemColors.ActiveCaption;
-            btnInicioS.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnInicioS.BackColor = Color.FromArgb(246, 194, 19);
+            btnInicioS.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnInicioS.Location = new Point(107, 323);
             btnInicioS.Name = "btnInicioS";
             btnInicioS.Size = new Size(146, 55);
             btnInicioS.TabIndex = 4;
             btnInicioS.Text = "Inicio Sesion";
             btnInicioS.UseVisualStyleBackColor = false;
+            btnInicioS.Click += btnInicioS_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.logoLogin;
-            pictureBox1.Location = new Point(107, 17);
+            pictureBox1.Location = new Point(108, 17);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(130, 137);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -161,14 +170,6 @@
             label1.TabIndex = 0;
             label1.Text = "LOGIN";
             label1.Click += label1_Click;
-            // 
-            // txtPass
-            // 
-            txtPass.Location = new Point(108, 282);
-            txtPass.Name = "txtPass";
-            txtPass.PasswordChar = '*';
-            txtPass.Size = new Size(172, 23);
-            txtPass.TabIndex = 11;
             // 
             // FrMainClient
             // 
@@ -200,5 +201,6 @@
         private Label lbUser;
         private TextBox txtUser;
         private TextBox txtPass;
+        private ErrorProvider errorLogin;
     }
 }
