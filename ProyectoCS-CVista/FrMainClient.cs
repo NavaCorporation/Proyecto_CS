@@ -1,8 +1,8 @@
 namespace ProyectoCS_CVista
 {
-    public partial class Form1 : Form
+    public partial class FrMainClient : Form
     {
-        public Form1()
+        public FrMainClient()
         {
             InitializeComponent();
         }
