@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-// Prueba en Beta, usar la conexion Sql Una ves este Operativa ATT// NavaCorp
+// Prueba en Beta, usar la conexion Sql Una ves este Operativa ATT// NavaCo
 [TestFixture]
 public class Tests
 {
