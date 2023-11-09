@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoCS-CDatos", "ProyectoCS-CDatos\ProyectoCS-CDatos.csproj", "{5673E4FA-D666-49EA-99D2-1CDBFAE595AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoCS-CDatos", "ProyectoCS-CDatos\ProyectoCS-CDatos.csproj", "{5673E4FA-D666-49EA-99D2-1CDBFAE595AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoCS-CNegocio", "Proyecto-CS-CNegocio\ProyectoCS-CNegocio.csproj", "{EF033CA7-C15A-44FC-AF66-A4B450FEE746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoCS-CNegocio", "Proyecto-CS-CNegocio\ProyectoCS-CNegocio.csproj", "{EF033CA7-C15A-44FC-AF66-A4B450FEE746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoCS-CVista", "ProyectoCS-CVista\ProyectoCS-CVista.csproj", "{E98FF41A-E734-4BD4-8791-C61F5A896EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoCS-CVista", "ProyectoCS-CVista\ProyectoCS-CVista.csproj", "{E98FF41A-E734-4BD4-8791-C61F5A896EB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthTesting", "AuthTesting\AuthTesting.csproj", "{BBAB6486-D6E1-401D-9EBD-2F6013F86105}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthTesting", "AuthTestin\AuthTesting.csproj", "{D80186BF-CCE7-4124-B6EC-E598806877F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{E98FF41A-E734-4BD4-8791-C61F5A896EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E98FF41A-E734-4BD4-8791-C61F5A896EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E98FF41A-E734-4BD4-8791-C61F5A896EB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BBAB6486-D6E1-401D-9EBD-2F6013F86105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BBAB6486-D6E1-401D-9EBD-2F6013F86105}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BBAB6486-D6E1-401D-9EBD-2F6013F86105}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BBAB6486-D6E1-401D-9EBD-2F6013F86105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80186BF-CCE7-4124-B6EC-E598806877F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80186BF-CCE7-4124-B6EC-E598806877F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80186BF-CCE7-4124-B6EC-E598806877F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80186BF-CCE7-4124-B6EC-E598806877F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
