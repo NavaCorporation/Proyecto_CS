@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            lbLoca = new Label();
+            SuspendLayout();
+            // 
+            // lbLoca
+            // 
+            lbLoca.AutoSize = true;
+            lbLoca.Location = new Point(216, 96);
+            lbLoca.Name = "lbLoca";
+            lbLoca.Size = new Size(60, 15);
+            lbLoca.TabIndex = 0;
+            lbLoca.Text = "Loca nava";
+            lbLoca.Click += label1_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lbLoca);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lbLoca;
     }
 }

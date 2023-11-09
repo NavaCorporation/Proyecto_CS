@@ -6,5 +6,10 @@ namespace ProyectoCS_CVista
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
