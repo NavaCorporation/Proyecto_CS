@@ -6,4 +6,3 @@
     PRIMARY KEY CLUSTERED ([Id] ASC),
     UNIQUE NONCLUSTERED ([CorreoElectronico] ASC)
 );
-
