@@ -11,7 +11,7 @@ namespace AuthTesting
         {
             // Configura la cadena de conexión a la base de datos de prueba
             string server = "Navarrete\\SQLEXPRESS";
-            connectionString = $"Server={server};Database=POE_Proyect;Integrated Security=True;";
+            connectionString = $"Server={server};Database=Proyecto_CS;Integrated Security=True;";
         }
 
         public void TestConexionSqlServer()
