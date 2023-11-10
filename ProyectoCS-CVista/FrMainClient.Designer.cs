@@ -28,179 +28,351 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panelG1 = new Panel();
-            panelLogin1 = new Panel();
-            panelLogin2 = new Panel();
+            panelBProveedor = new Panel();
+            panel9 = new Panel();
             txtPass = new TextBox();
-            txtUser = new TextBox();
             lbPass = new Label();
-            lbUser = new Label();
-            linkLabel1 = new LinkLabel();
-            label3 = new Label();
             btnInicioS = new Button();
+            lb = new Label();
+            linkRe = new LinkLabel();
+            txtUser = new TextBox();
+            lbUser = new Label();
+            panel16 = new Panel();
+            panel15 = new Panel();
+            panel8 = new Panel();
+            panel6 = new Panel();
+            panel3 = new Panel();
+            panel2 = new Panel();
+            lbFecha = new Label();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
             pictureBox1 = new PictureBox();
-            label1 = new Label();
-            panelG1.SuspendLayout();
-            panelLogin1.SuspendLayout();
-            panelLogin2.SuspendLayout();
+            panel7 = new Panel();
+            panel1 = new Panel();
+            panel4 = new Panel();
+            panel5 = new Panel();
+            panelTyT = new Panel();
+            lbPro = new Label();
+            panelBProveedor.SuspendLayout();
+            panel9.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panelTyT.SuspendLayout();
             SuspendLayout();
             // 
-            // panelG1
+            // panelBProveedor
             // 
-            panelG1.BorderStyle = BorderStyle.FixedSingle;
-            panelG1.Controls.Add(panelLogin1);
-            panelG1.Location = new Point(12, 12);
-            panelG1.Name = "panelG1";
-            panelG1.Size = new Size(1004, 657);
-            panelG1.TabIndex = 0;
-            panelG1.Paint += panelG1_Paint;
+            panelBProveedor.Controls.Add(panel9);
+            panelBProveedor.Controls.Add(panel16);
+            panelBProveedor.Controls.Add(panel15);
+            panelBProveedor.Controls.Add(panel8);
+            panelBProveedor.Controls.Add(panel6);
+            panelBProveedor.Controls.Add(panel3);
+            panelBProveedor.Controls.Add(panel2);
+            panelBProveedor.Controls.Add(panelTyT);
+            panelBProveedor.Location = new Point(-1, -1);
+            panelBProveedor.Margin = new Padding(0);
+            panelBProveedor.Name = "panelBProveedor";
+            panelBProveedor.Size = new Size(1004, 626);
+            panelBProveedor.TabIndex = 6;
+            panelBProveedor.Paint += panelBProveedor_Paint;
             // 
-            // panelLogin1
+            // panel9
             // 
-            panelLogin1.BackColor = Color.FromArgb(246, 194, 19);
-            panelLogin1.BorderStyle = BorderStyle.FixedSingle;
-            panelLogin1.Controls.Add(panelLogin2);
-            panelLogin1.Location = new Point(271, 43);
-            panelLogin1.Name = "panelLogin1";
-            panelLogin1.Size = new Size(500, 570);
-            panelLogin1.TabIndex = 0;
-            // 
-            // panelLogin2
-            // 
-            panelLogin2.BackColor = Color.FromArgb(247, 244, 233);
-            panelLogin2.BorderStyle = BorderStyle.FixedSingle;
-            panelLogin2.Controls.Add(txtPass);
-            panelLogin2.Controls.Add(txtUser);
-            panelLogin2.Controls.Add(lbPass);
-            panelLogin2.Controls.Add(lbUser);
-            panelLogin2.Controls.Add(linkLabel1);
-            panelLogin2.Controls.Add(label3);
-            panelLogin2.Controls.Add(btnInicioS);
-            panelLogin2.Controls.Add(pictureBox1);
-            panelLogin2.Controls.Add(label1);
-            panelLogin2.Location = new Point(79, 27);
-            panelLogin2.Name = "panelLogin2";
-            panelLogin2.Size = new Size(342, 497);
-            panelLogin2.TabIndex = 0;
+            panel9.BackColor = Color.FromArgb(247, 244, 233);
+            panel9.Controls.Add(txtPass);
+            panel9.Controls.Add(lbPass);
+            panel9.Controls.Add(btnInicioS);
+            panel9.Controls.Add(lb);
+            panel9.Controls.Add(linkRe);
+            panel9.Controls.Add(txtUser);
+            panel9.Controls.Add(lbUser);
+            panel9.Location = new Point(352, 151);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(347, 432);
+            panel9.TabIndex = 10;
             // 
             // txtPass
             // 
-            txtPass.Location = new Point(108, 282);
+            txtPass.Location = new Point(66, 180);
             txtPass.Name = "txtPass";
             txtPass.PasswordChar = '*';
-            txtPass.Size = new Size(172, 23);
-            txtPass.TabIndex = 11;
-            // 
-            // txtUser
-            // 
-            txtUser.Location = new Point(108, 233);
-            txtUser.Name = "txtUser";
-            txtUser.Size = new Size(172, 23);
-            txtUser.TabIndex = 10;
+            txtPass.Size = new Size(189, 23);
+            txtPass.TabIndex = 8;
             // 
             // lbPass
             // 
             lbPass.AutoSize = true;
-            lbPass.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            lbPass.Location = new Point(25, 283);
+            lbPass.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lbPass.Location = new Point(66, 145);
             lbPass.Name = "lbPass";
-            lbPass.Size = new Size(84, 19);
-            lbPass.TabIndex = 9;
-            lbPass.Text = "Contraseña";
+            lbPass.Size = new Size(76, 21);
+            lbPass.TabIndex = 7;
+            lbPass.Text = "Password";
+            // 
+            // btnInicioS
+            // 
+            btnInicioS.Location = new Point(114, 294);
+            btnInicioS.Name = "btnInicioS";
+            btnInicioS.Size = new Size(105, 49);
+            btnInicioS.TabIndex = 6;
+            btnInicioS.Text = "Inicio Sesion";
+            btnInicioS.UseVisualStyleBackColor = true;
+            btnInicioS.Click += btnInicioS_Click_1;
+            // 
+            // lb
+            // 
+            lb.AutoSize = true;
+            lb.Location = new Point(32, 245);
+            lb.Name = "lb";
+            lb.Size = new Size(124, 15);
+            lb.TabIndex = 5;
+            lb.Text = "Aun no tienes cuenta?";
+            // 
+            // linkRe
+            // 
+            linkRe.AutoSize = true;
+            linkRe.Location = new Point(209, 245);
+            linkRe.Name = "linkRe";
+            linkRe.Size = new Size(87, 15);
+            linkRe.TabIndex = 4;
+            linkRe.TabStop = true;
+            linkRe.Text = "Registrate Aqui";
+            // 
+            // txtUser
+            // 
+            txtUser.Location = new Point(66, 91);
+            txtUser.Name = "txtUser";
+            txtUser.Size = new Size(189, 23);
+            txtUser.TabIndex = 2;
             // 
             // lbUser
             // 
             lbUser.AutoSize = true;
-            lbUser.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            lbUser.Location = new Point(25, 231);
+            lbUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lbUser.Location = new Point(66, 67);
             lbUser.Name = "lbUser";
-            lbUser.Size = new Size(76, 19);
-            lbUser.TabIndex = 8;
+            lbUser.Size = new Size(81, 21);
+            lbUser.TabIndex = 0;
             lbUser.Text = "Username";
             // 
-            // linkLabel1
+            // panel16
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(240, 395);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(87, 15);
-            linkLabel1.TabIndex = 7;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Registrate Aqui";
+            panel16.BackColor = SystemColors.ActiveCaptionText;
+            panel16.Location = new Point(979, 128);
+            panel16.Name = "panel16";
+            panel16.Size = new Size(5, 486);
+            panel16.TabIndex = 9;
             // 
-            // label3
+            // panel15
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(21, 393);
-            label3.Name = "label3";
-            label3.Size = new Size(127, 15);
-            label3.TabIndex = 6;
-            label3.Text = "Aun no tienes cuenta ?";
+            panel15.BackColor = SystemColors.ActiveCaptionText;
+            panel15.Location = new Point(193, 610);
+            panel15.Name = "panel15";
+            panel15.Size = new Size(792, 4);
+            panel15.TabIndex = 8;
             // 
-            // btnInicioS
+            // panel8
             // 
-            btnInicioS.BackColor = Color.FromArgb(246, 194, 19);
-            btnInicioS.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnInicioS.Location = new Point(107, 323);
-            btnInicioS.Name = "btnInicioS";
-            btnInicioS.Size = new Size(146, 55);
-            btnInicioS.TabIndex = 4;
-            btnInicioS.Text = "Inicio Sesion";
-            btnInicioS.UseVisualStyleBackColor = false;
-            btnInicioS.Click += btnInicioS_Click;
+            panel8.BackColor = SystemColors.ActiveCaptionText;
+            panel8.Location = new Point(10, 607);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(970, 9);
+            panel8.TabIndex = 4;
+            // 
+            // panel6
+            // 
+            panel6.BackColor = SystemColors.ActiveCaptionText;
+            panel6.Location = new Point(0, 130);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(10, 486);
+            panel6.TabIndex = 3;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = SystemColors.ActiveCaptionText;
+            panel3.Location = new Point(0, 120);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(985, 10);
+            panel3.TabIndex = 2;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(255, 249, 224);
+            panel2.Controls.Add(lbFecha);
+            panel2.Controls.Add(pictureBox2);
+            panel2.Controls.Add(pictureBox3);
+            panel2.Controls.Add(pictureBox4);
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(panel7);
+            panel2.Controls.Add(panel1);
+            panel2.Controls.Add(panel4);
+            panel2.Controls.Add(panel5);
+            panel2.Location = new Point(0, 83);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(985, 41);
+            panel2.TabIndex = 1;
+            // 
+            // lbFecha
+            // 
+            lbFecha.AutoSize = true;
+            lbFecha.Location = new Point(890, 6);
+            lbFecha.Name = "lbFecha";
+            lbFecha.Size = new Size(92, 30);
+            lbFecha.TabIndex = 6;
+            lbFecha.Text = "     09:21 am\r\n29 de junio 2023\r\n";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = SystemColors.Control;
+            pictureBox2.Image = Properties.Resources.user;
+            pictureBox2.Location = new Point(106, 10);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(26, 26);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 3;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = SystemColors.Control;
+            pictureBox3.Image = Properties.Resources.cog;
+            pictureBox3.Location = new Point(74, 10);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(26, 26);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 4;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.BackColor = SystemColors.Control;
+            pictureBox4.Image = Properties.Resources.search;
+            pictureBox4.Location = new Point(42, 10);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(26, 26);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 5;
+            pictureBox4.TabStop = false;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.logoLogin;
-            pictureBox1.Location = new Point(108, 17);
+            pictureBox1.BackColor = SystemColors.Control;
+            pictureBox1.Image = Properties.Resources.menu;
+            pictureBox1.Location = new Point(10, 10);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(130, 137);
+            pictureBox1.Size = new Size(26, 26);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 1;
+            pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
-            // label1
+            // panel7
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 32F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(95, 157);
-            label1.Name = "label1";
-            label1.Size = new Size(158, 59);
-            label1.TabIndex = 0;
-            label1.Text = "LOGIN";
-            label1.Click += label1_Click;
+            panel7.BackColor = SystemColors.ActiveCaptionText;
+            panel7.Location = new Point(982, 3);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(3, 38);
+            panel7.TabIndex = 5;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ActiveCaptionText;
+            panel1.Location = new Point(0, 37);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(985, 4);
+            panel1.TabIndex = 4;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = SystemColors.ActiveCaptionText;
+            panel4.Location = new Point(0, 0);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(985, 4);
+            panel4.TabIndex = 3;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = SystemColors.ActiveCaptionText;
+            panel5.Location = new Point(0, 3);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(3, 38);
+            panel5.TabIndex = 3;
+            // 
+            // panelTyT
+            // 
+            panelTyT.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            panelTyT.BackColor = Color.FromArgb(246, 194, 19);
+            panelTyT.Controls.Add(lbPro);
+            panelTyT.Location = new Point(0, 0);
+            panelTyT.Name = "panelTyT";
+            panelTyT.Size = new Size(985, 83);
+            panelTyT.TabIndex = 0;
+            // 
+            // lbPro
+            // 
+            lbPro.AutoSize = true;
+            lbPro.Font = new Font("Segoe UI", 32F, FontStyle.Bold, GraphicsUnit.Point);
+            lbPro.Location = new Point(252, 9);
+            lbPro.Name = "lbPro";
+            lbPro.Size = new Size(447, 59);
+            lbPro.TabIndex = 0;
+            lbPro.Text = "TUERCA Y TORNILLO";
             // 
             // FrMainClient
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1028, 681);
-            Controls.Add(panelG1);
+            ClientSize = new Size(988, 618);
+            Controls.Add(panelBProveedor);
+            MaximizeBox = false;
             Name = "FrMainClient";
             Text = "Form1";
-            panelG1.ResumeLayout(false);
-            panelLogin1.ResumeLayout(false);
-            panelLogin2.ResumeLayout(false);
-            panelLogin2.PerformLayout();
+            Load += FrMainClient_Load;
+            panelBProveedor.ResumeLayout(false);
+            panel9.ResumeLayout(false);
+            panel9.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panelTyT.ResumeLayout(false);
+            panelTyT.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Panel panelG1;
-        private Panel panelLogin1;
-        private Panel panelLogin2;
-        private Label label1;
-        private PictureBox pictureBox1;
-        private Label label3;
-        private Button btnInicioS;
-        private LinkLabel linkLabel1;
-        private Label lbPass;
-        private Label lbUser;
-        private TextBox txtUser;
-        private TextBox txtPass;
         private ErrorProvider errorLogin;
+        private Panel panelBProveedor;
+        private Panel panel16;
+        private Panel panel15;
+        private Panel panel8;
+        private Panel panel6;
+        private Panel panel3;
+        private Panel panel2;
+        private Label lbFecha;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox1;
+        private Panel panel7;
+        private Panel panel1;
+        private Panel panel4;
+        private Panel panel5;
+        private Panel panelTyT;
+        private Label lbPro;
+        private Panel panel9;
+        private Button btnInicioS;
+        private Label lb;
+        private LinkLabel linkRe;
+        private TextBox txtUser;
+        private Label lbUser;
+        private Label lbPass;
+        private TextBox txtPass;
     }
 }

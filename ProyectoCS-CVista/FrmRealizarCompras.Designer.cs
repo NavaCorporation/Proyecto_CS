@@ -31,6 +31,7 @@
             panelBProveedor = new Panel();
             panel17 = new Panel();
             lbFondo3 = new Panel();
+            button1 = new Button();
             comboBox3 = new ComboBox();
             comboBox2 = new ComboBox();
             comboBox1 = new ComboBox();
@@ -65,7 +66,6 @@
             panel5 = new Panel();
             panelTyT = new Panel();
             lbPro = new Label();
-            button1 = new Button();
             panelBProveedor.SuspendLayout();
             lbFondo3.SuspendLayout();
             panel2.SuspendLayout();
@@ -126,6 +126,15 @@
             lbFondo3.Name = "lbFondo3";
             lbFondo3.Size = new Size(758, 440);
             lbFondo3.TabIndex = 13;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(615, 43);
+            button1.Name = "button1";
+            button1.Size = new Size(72, 62);
+            button1.TabIndex = 19;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // comboBox3
             // 
@@ -418,6 +427,7 @@
             // 
             // panelTyT
             // 
+            panelTyT.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             panelTyT.BackColor = Color.FromArgb(246, 194, 19);
             panelTyT.Controls.Add(lbPro);
             panelTyT.Location = new Point(0, 0);
@@ -434,15 +444,6 @@
             lbPro.Size = new Size(447, 59);
             lbPro.TabIndex = 0;
             lbPro.Text = "TUERCA Y TORNILLO";
-            // 
-            // button1
-            // 
-            button1.Location = new Point(615, 43);
-            button1.Name = "button1";
-            button1.Size = new Size(72, 62);
-            button1.TabIndex = 19;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
             // 
             // FrmRealizarCompras
             // 
