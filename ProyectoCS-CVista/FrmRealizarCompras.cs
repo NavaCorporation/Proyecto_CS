@@ -15,6 +15,8 @@ namespace ProyectoCS_CVista
         public FrmRealizarCompras()
         {
             InitializeComponent();
+
+            /***/
         }
 
 
