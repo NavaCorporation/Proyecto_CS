@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panelBProveedor = new Panel();
-            panel9 = new Panel();
+            panelInicioS = new Panel();
+            PanelSubLogin = new Panel();
+            PanelSubLogin2 = new Panel();
             txtPass = new TextBox();
             lbPass = new Label();
             btnInicioS = new Button();
@@ -54,8 +55,9 @@
             panel5 = new Panel();
             panelTyT = new Panel();
             lbPro = new Label();
-            panelBProveedor.SuspendLayout();
-            panel9.SuspendLayout();
+            panelInicioS.SuspendLayout();
+            PanelSubLogin.SuspendLayout();
+            PanelSubLogin2.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -64,37 +66,46 @@
             panelTyT.SuspendLayout();
             SuspendLayout();
             // 
-            // panelBProveedor
+            // panelInicioS
             // 
-            panelBProveedor.Controls.Add(panel9);
-            panelBProveedor.Controls.Add(panel16);
-            panelBProveedor.Controls.Add(panel15);
-            panelBProveedor.Controls.Add(panel8);
-            panelBProveedor.Controls.Add(panel6);
-            panelBProveedor.Controls.Add(panel3);
-            panelBProveedor.Controls.Add(panel2);
-            panelBProveedor.Controls.Add(panelTyT);
-            panelBProveedor.Location = new Point(-1, -1);
-            panelBProveedor.Margin = new Padding(0);
-            panelBProveedor.Name = "panelBProveedor";
-            panelBProveedor.Size = new Size(1004, 626);
-            panelBProveedor.TabIndex = 6;
-            panelBProveedor.Paint += panelBProveedor_Paint;
+            panelInicioS.Controls.Add(PanelSubLogin);
+            panelInicioS.Controls.Add(panel16);
+            panelInicioS.Controls.Add(panel15);
+            panelInicioS.Controls.Add(panel8);
+            panelInicioS.Controls.Add(panel6);
+            panelInicioS.Controls.Add(panel3);
+            panelInicioS.Controls.Add(panel2);
+            panelInicioS.Controls.Add(panelTyT);
+            panelInicioS.Location = new Point(-1, -1);
+            panelInicioS.Margin = new Padding(0);
+            panelInicioS.Name = "panelInicioS";
+            panelInicioS.Size = new Size(1004, 626);
+            panelInicioS.TabIndex = 6;
+            panelInicioS.Paint += panelBProveedor_Paint;
             // 
-            // panel9
+            // PanelSubLogin
             // 
-            panel9.BackColor = Color.FromArgb(247, 244, 233);
-            panel9.Controls.Add(txtPass);
-            panel9.Controls.Add(lbPass);
-            panel9.Controls.Add(btnInicioS);
-            panel9.Controls.Add(lb);
-            panel9.Controls.Add(linkRe);
-            panel9.Controls.Add(txtUser);
-            panel9.Controls.Add(lbUser);
-            panel9.Location = new Point(352, 151);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(347, 432);
-            panel9.TabIndex = 10;
+            PanelSubLogin.BackColor = Color.FromArgb(255, 255, 192);
+            PanelSubLogin.Controls.Add(PanelSubLogin2);
+            PanelSubLogin.Location = new Point(264, 136);
+            PanelSubLogin.Name = "PanelSubLogin";
+            PanelSubLogin.Size = new Size(549, 465);
+            PanelSubLogin.TabIndex = 11;
+            // 
+            // PanelSubLogin2
+            // 
+            PanelSubLogin2.BackColor = Color.FromArgb(247, 244, 233);
+            PanelSubLogin2.Controls.Add(txtPass);
+            PanelSubLogin2.Controls.Add(lbPass);
+            PanelSubLogin2.Controls.Add(btnInicioS);
+            PanelSubLogin2.Controls.Add(lb);
+            PanelSubLogin2.Controls.Add(linkRe);
+            PanelSubLogin2.Controls.Add(txtUser);
+            PanelSubLogin2.Controls.Add(lbUser);
+            PanelSubLogin2.Location = new Point(102, 17);
+            PanelSubLogin2.Name = "PanelSubLogin2";
+            PanelSubLogin2.Size = new Size(347, 432);
+            PanelSubLogin2.TabIndex = 10;
             // 
             // txtPass
             // 
@@ -327,14 +338,15 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(988, 618);
-            Controls.Add(panelBProveedor);
+            Controls.Add(panelInicioS);
             MaximizeBox = false;
             Name = "FrMainClient";
             Text = "Form1";
             Load += FrMainClient_Load;
-            panelBProveedor.ResumeLayout(false);
-            panel9.ResumeLayout(false);
-            panel9.PerformLayout();
+            panelInicioS.ResumeLayout(false);
+            PanelSubLogin.ResumeLayout(false);
+            PanelSubLogin2.ResumeLayout(false);
+            PanelSubLogin2.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -348,7 +360,7 @@
 
         #endregion
         private ErrorProvider errorLogin;
-        private Panel panelBProveedor;
+        private Panel panelInicioS;
         private Panel panel16;
         private Panel panel15;
         private Panel panel8;
@@ -366,13 +378,14 @@
         private Panel panel5;
         private Panel panelTyT;
         private Label lbPro;
-        private Panel panel9;
+        private Panel PanelSubLogin;
+        private Panel PanelSubLogin2;
+        private TextBox txtPass;
+        private Label lbPass;
         private Button btnInicioS;
         private Label lb;
         private LinkLabel linkRe;
         private TextBox txtUser;
         private Label lbUser;
-        private Label lbPass;
-        private TextBox txtPass;
     }
 }

@@ -120,3 +120,4 @@ C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-window
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmAdministrador.resources
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmModificarProveedor.resources
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmRealizarCompras.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmCliente.resources

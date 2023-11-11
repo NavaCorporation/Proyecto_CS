@@ -1,17 +1,18 @@
-﻿CREATE TABLE [dbo].[Usuario] (
-    [Id]                INT           IDENTITY (1, 1) NOT NULL,
-    [Nombre]            VARCHAR (50)  NOT NULL,
-    [CorreoElectronico] VARCHAR (100) NOT NULL,
-    [Contrasena]        VARCHAR (128) NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC),
-    UNIQUE NONCLUSTERED ([CorreoElectronico] ASC)
+﻿CREATE TABLE Usuario (
+    id_Usuario INT PRIMARY KEY IDENTITY(1,1),
+    nombres VARCHAR(30) NOT NULL,
+	apellidos VARCHAR(30) NOT NULL,
+    username VARCHAR(15) UNIQUE NOT NULL,
+	cedula VARCHAR (10) UNIQUE not null,
+	sexo VARCHAR(15) NOT NULL CHECK (sexo IN ('Masculino', 'Femenino')),
+	fecha_nacimiento DATE,
+	estado VARCHAR(1) NOT NULL,
+    mail VARCHAR(50) UNIQUE NOT NULL,
+    perfil_usuario VARCHAR(15) NOT NULL CHECK (perfil_usuario IN ('administrador', 'proveedor', 'cliente')),
+    contrasena VARCHAR(50) NOT NULL
 );
-CREATE TABLE [dbo].[Usuario2] (
-  [Id] INT IDENTITY (1, 1) NOT NULL,
-  [Nombre] VARCHAR (50) NOT NULL,
-  [CorreoElectronico] VARCHAR (100) NOT NULL,
-  [Contrasena] VARCHAR (128) NOT NULL,
-  PRIMARY KEY CLUSTERED ([Id] ASC),
-  UNIQUE NONCLUSTERED ([CorreoElectronico] ASC)
-);
-//Prueba de sincronizacion 
+
+
+
+
+
