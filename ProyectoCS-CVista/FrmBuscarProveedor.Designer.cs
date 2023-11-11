@@ -32,6 +32,12 @@
             panel17 = new Panel();
             lbFondo2 = new Panel();
             dgvProveedor = new DataGridView();
+            Código = new DataGridViewTextBoxColumn();
+            Cédula = new DataGridViewTextBoxColumn();
+            Apellido = new DataGridViewTextBoxColumn();
+            Apellido2 = new DataGridViewTextBoxColumn();
+            Nombre = new DataGridViewTextBoxColumn();
+            Ruc = new DataGridViewTextBoxColumn();
             panel10 = new Panel();
             txtBuscarP = new TextBox();
             btnBuscarP = new Button();
@@ -65,12 +71,6 @@
             panel5 = new Panel();
             panelTyT = new Panel();
             lbPro = new Label();
-            Código = new DataGridViewTextBoxColumn();
-            Cédula = new DataGridViewTextBoxColumn();
-            Apellido = new DataGridViewTextBoxColumn();
-            Apellido2 = new DataGridViewTextBoxColumn();
-            Nombre = new DataGridViewTextBoxColumn();
-            Ruc = new DataGridViewTextBoxColumn();
             panelBProveedor.SuspendLayout();
             lbFondo2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvProveedor).BeginInit();
@@ -118,7 +118,7 @@
             // 
             // lbFondo2
             // 
-            lbFondo2.BackColor = Color.FromArgb(247, 244, 233);
+            lbFondo2.BackColor = Color.FromArgb(255, 192, 128);
             lbFondo2.Controls.Add(dgvProveedor);
             lbFondo2.Controls.Add(panel10);
             lbFondo2.Controls.Add(txtBuscarP);
@@ -142,6 +142,36 @@
             dgvProveedor.RowTemplate.Height = 25;
             dgvProveedor.Size = new Size(643, 251);
             dgvProveedor.TabIndex = 15;
+            // 
+            // Código
+            // 
+            Código.HeaderText = "Código Proveedor";
+            Código.Name = "Código";
+            // 
+            // Cédula
+            // 
+            Cédula.HeaderText = "Cédula ";
+            Cédula.Name = "Cédula";
+            // 
+            // Apellido
+            // 
+            Apellido.HeaderText = "Apellido(Paterno)";
+            Apellido.Name = "Apellido";
+            // 
+            // Apellido2
+            // 
+            Apellido2.HeaderText = "Apellido(Materno)";
+            Apellido2.Name = "Apellido2";
+            // 
+            // Nombre
+            // 
+            Nombre.HeaderText = "Nombre";
+            Nombre.Name = "Nombre";
+            // 
+            // Ruc
+            // 
+            Ruc.HeaderText = "Ruc";
+            Ruc.Name = "Ruc";
             // 
             // panel10
             // 
@@ -447,43 +477,13 @@
             lbPro.TabIndex = 0;
             lbPro.Text = "TUERCA Y TORNILLO";
             // 
-            // Código
-            // 
-            Código.HeaderText = "Código Proveedor";
-            Código.Name = "Código";
-            // 
-            // Cédula
-            // 
-            Cédula.HeaderText = "Cédula ";
-            Cédula.Name = "Cédula";
-            // 
-            // Apellido
-            // 
-            Apellido.HeaderText = "Apellido(Paterno)";
-            Apellido.Name = "Apellido";
-            // 
-            // Apellido2
-            // 
-            Apellido2.HeaderText = "Apellido(Materno)";
-            Apellido2.Name = "Apellido2";
-            // 
-            // Nombre
-            // 
-            Nombre.HeaderText = "Nombre";
-            Nombre.Name = "Nombre";
-            // 
-            // Ruc
-            // 
-            Ruc.HeaderText = "Ruc";
-            Ruc.Name = "Ruc";
-            // 
-            // FrmBuscarProvedor
+            // FrmBuscarProveedor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(988, 618);
             Controls.Add(panelBProveedor);
-            Name = "FrmBuscarProvedor";
+            Name = "FrmBuscarProveedor";
             Text = "FrmBuscarProvedor";
             Load += FrmBuscarProvedor_Load;
             panelBProveedor.ResumeLayout(false);
