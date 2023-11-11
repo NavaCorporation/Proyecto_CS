@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Proyecto-CS-View\\Controllers",
-    "\\Proyecto-CS-View\\Pages"
+    "\\Repository"
   ],
-  "SelectedNode": "\\Proyecto-CS.Repository",
+  "SelectedNode": "\\Repository\\Repository.csproj",
   "PreviewInSolutionExplorer": false
 }
