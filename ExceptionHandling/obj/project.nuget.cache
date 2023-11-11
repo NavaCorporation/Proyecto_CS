@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0zREnEWqCWoqLpsFdKU5pewba3nABl5GwwCeEEL94rSKOBRgAucX3SHjxwwMh7Ymt7d0Pxj+vK65E8FrN7UBWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}

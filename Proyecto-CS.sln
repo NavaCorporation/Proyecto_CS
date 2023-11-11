@@ -6,12 +6,17 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoCS-CDatos", "ProyectoCS-CDatos\ProyectoCS-CDatos.csproj", "{5673E4FA-D666-49EA-99D2-1CDBFAE595AA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoCS-CNegocio", "Proyecto-CS-CNegocio\ProyectoCS-CNegocio.csproj", "{EF033CA7-C15A-44FC-AF66-A4B450FEE746}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A90621AB-9767-46D9-9E1F-DFD927A7F6B7} = {A90621AB-9767-46D9-9E1F-DFD927A7F6B7}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoCS-CVista", "ProyectoCS-CVista\ProyectoCS-CVista.csproj", "{E98FF41A-E734-4BD4-8791-C61F5A896EB2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthTesting", "AuthTestin\AuthTesting.csproj", "{D80186BF-CCE7-4124-B6EC-E598806877F7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{CAF82032-1E04-4D6C-BDD4-F1CEFC61484B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "ExceptionHandling\CustomException.csproj", "{A90621AB-9767-46D9-9E1F-DFD927A7F6B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +44,10 @@ Global
 		{CAF82032-1E04-4D6C-BDD4-F1CEFC61484B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAF82032-1E04-4D6C-BDD4-F1CEFC61484B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAF82032-1E04-4D6C-BDD4-F1CEFC61484B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90621AB-9767-46D9-9E1F-DFD927A7F6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90621AB-9767-46D9-9E1F-DFD927A7F6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90621AB-9767-46D9-9E1F-DFD927A7F6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90621AB-9767-46D9-9E1F-DFD927A7F6B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
