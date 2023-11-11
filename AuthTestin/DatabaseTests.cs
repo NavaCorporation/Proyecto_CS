@@ -52,7 +52,7 @@ namespace AuthTesting
         [TearDown]
         public void TearDown()
         {
-            // Lógica para limpiar después de todas las pruebas si es necesario
+            /*// Lógica para limpiar después de todas las pruebas si es necesario
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
                 connection.Open();
@@ -68,7 +68,7 @@ namespace AuthTesting
                 {
                     command.ExecuteNonQuery();
                 }
-            }
+            }*/
         }
 
         // Método auxiliar para verificar la existencia de un usuario en la base de datos
