@@ -30,7 +30,18 @@
         {
             panelBProveedor = new Panel();
             panel17 = new Panel();
+            panelTyT = new Panel();
+            lbPro = new Label();
             lbFondo3 = new Panel();
+            panel18 = new Panel();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            btnCancelarU = new Button();
+            btnRegistrarU = new Button();
+            txtContraseña = new TextBox();
+            txtCorreoU = new TextBox();
+            txtNombreU = new TextBox();
             panel10 = new Panel();
             textBox1 = new TextBox();
             lbAdm = new Label();
@@ -59,31 +70,21 @@
             panel1 = new Panel();
             panel4 = new Panel();
             panel5 = new Panel();
-            panelTyT = new Panel();
-            lbPro = new Label();
-            panel18 = new Panel();
-            txtNombreU = new TextBox();
-            txtCorreoU = new TextBox();
-            txtContraseña = new TextBox();
-            btnRegistrarU = new Button();
-            btnCancelarU = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
             panelBProveedor.SuspendLayout();
+            panelTyT.SuspendLayout();
             lbFondo3.SuspendLayout();
+            panel18.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panelTyT.SuspendLayout();
-            panel18.SuspendLayout();
             SuspendLayout();
             // 
             // panelBProveedor
             // 
             panelBProveedor.Controls.Add(panel17);
+            panelBProveedor.Controls.Add(panelTyT);
             panelBProveedor.Controls.Add(lbFondo3);
             panelBProveedor.Controls.Add(panel16);
             panelBProveedor.Controls.Add(panel15);
@@ -100,7 +101,6 @@
             panelBProveedor.Controls.Add(panel6);
             panelBProveedor.Controls.Add(panel3);
             panelBProveedor.Controls.Add(panel2);
-            panelBProveedor.Controls.Add(panelTyT);
             panelBProveedor.Location = new Point(2, 1);
             panelBProveedor.Margin = new Padding(0);
             panelBProveedor.Name = "panelBProveedor";
@@ -115,9 +115,28 @@
             panel17.Size = new Size(4, 443);
             panel17.TabIndex = 15;
             // 
+            // panelTyT
+            // 
+            panelTyT.BackColor = Color.FromArgb(246, 194, 19);
+            panelTyT.Controls.Add(lbPro);
+            panelTyT.Location = new Point(0, 0);
+            panelTyT.Name = "panelTyT";
+            panelTyT.Size = new Size(985, 83);
+            panelTyT.TabIndex = 0;
+            // 
+            // lbPro
+            // 
+            lbPro.AutoSize = true;
+            lbPro.Font = new Font("Segoe UI", 32F, FontStyle.Bold, GraphicsUnit.Point);
+            lbPro.Location = new Point(252, 9);
+            lbPro.Name = "lbPro";
+            lbPro.Size = new Size(447, 59);
+            lbPro.TabIndex = 0;
+            lbPro.Text = "TUERCA Y TORNILLO";
+            // 
             // lbFondo3
             // 
-            lbFondo3.BackColor = Color.FromArgb(247, 244, 233);
+            lbFondo3.BackColor = Color.FromArgb(255, 224, 192);
             lbFondo3.Controls.Add(panel18);
             lbFondo3.Controls.Add(panel10);
             lbFondo3.Controls.Add(textBox1);
@@ -127,6 +146,94 @@
             lbFondo3.Name = "lbFondo3";
             lbFondo3.Size = new Size(758, 440);
             lbFondo3.TabIndex = 13;
+            // 
+            // panel18
+            // 
+            panel18.BackColor = Color.Gold;
+            panel18.Controls.Add(label3);
+            panel18.Controls.Add(label2);
+            panel18.Controls.Add(label1);
+            panel18.Controls.Add(btnCancelarU);
+            panel18.Controls.Add(btnRegistrarU);
+            panel18.Controls.Add(txtContraseña);
+            panel18.Controls.Add(txtCorreoU);
+            panel18.Controls.Add(txtNombreU);
+            panel18.Location = new Point(239, 69);
+            panel18.Name = "panel18";
+            panel18.Size = new Size(284, 359);
+            panel18.TabIndex = 15;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(44, 181);
+            label3.Name = "label3";
+            label3.Size = new Size(89, 21);
+            label3.TabIndex = 7;
+            label3.Text = "Contraseña";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(44, 107);
+            label2.Name = "label2";
+            label2.Size = new Size(116, 21);
+            label2.TabIndex = 6;
+            label2.Text = "Correo Usuario";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(44, 34);
+            label1.Name = "label1";
+            label1.Size = new Size(147, 21);
+            label1.TabIndex = 5;
+            label1.Text = "Nombre de Usuario";
+            // 
+            // btnCancelarU
+            // 
+            btnCancelarU.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCancelarU.Location = new Point(151, 270);
+            btnCancelarU.Name = "btnCancelarU";
+            btnCancelarU.Size = new Size(116, 44);
+            btnCancelarU.TabIndex = 4;
+            btnCancelarU.Text = "Cancelar";
+            btnCancelarU.UseVisualStyleBackColor = true;
+            // 
+            // btnRegistrarU
+            // 
+            btnRegistrarU.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnRegistrarU.Location = new Point(17, 270);
+            btnRegistrarU.Name = "btnRegistrarU";
+            btnRegistrarU.Size = new Size(116, 44);
+            btnRegistrarU.TabIndex = 3;
+            btnRegistrarU.Text = "Registrar";
+            btnRegistrarU.UseVisualStyleBackColor = true;
+            // 
+            // txtContraseña
+            // 
+            txtContraseña.Location = new Point(44, 205);
+            txtContraseña.Name = "txtContraseña";
+            txtContraseña.PasswordChar = '*';
+            txtContraseña.Size = new Size(205, 23);
+            txtContraseña.TabIndex = 2;
+            // 
+            // txtCorreoU
+            // 
+            txtCorreoU.Location = new Point(44, 131);
+            txtCorreoU.Name = "txtCorreoU";
+            txtCorreoU.Size = new Size(205, 23);
+            txtCorreoU.TabIndex = 1;
+            // 
+            // txtNombreU
+            // 
+            txtNombreU.Location = new Point(44, 60);
+            txtNombreU.Name = "txtNombreU";
+            txtNombreU.Size = new Size(205, 23);
+            txtNombreU.TabIndex = 0;
             // 
             // panel10
             // 
@@ -385,134 +492,30 @@
             panel5.Size = new Size(3, 38);
             panel5.TabIndex = 3;
             // 
-            // panelTyT
-            // 
-            panelTyT.BackColor = Color.FromArgb(246, 194, 19);
-            panelTyT.Controls.Add(lbPro);
-            panelTyT.Location = new Point(0, 0);
-            panelTyT.Name = "panelTyT";
-            panelTyT.Size = new Size(985, 83);
-            panelTyT.TabIndex = 0;
-            // 
-            // lbPro
-            // 
-            lbPro.AutoSize = true;
-            lbPro.Font = new Font("Segoe UI", 32F, FontStyle.Bold, GraphicsUnit.Point);
-            lbPro.Location = new Point(252, 9);
-            lbPro.Name = "lbPro";
-            lbPro.Size = new Size(447, 59);
-            lbPro.TabIndex = 0;
-            lbPro.Text = "TUERCA Y TORNILLO";
-            // 
-            // panel18
-            // 
-            panel18.BackColor = Color.Gold;
-            panel18.Controls.Add(label3);
-            panel18.Controls.Add(label2);
-            panel18.Controls.Add(label1);
-            panel18.Controls.Add(btnCancelarU);
-            panel18.Controls.Add(btnRegistrarU);
-            panel18.Controls.Add(txtContraseña);
-            panel18.Controls.Add(txtCorreoU);
-            panel18.Controls.Add(txtNombreU);
-            panel18.Location = new Point(239, 69);
-            panel18.Name = "panel18";
-            panel18.Size = new Size(284, 359);
-            panel18.TabIndex = 15;
-            // 
-            // txtNombreU
-            // 
-            txtNombreU.Location = new Point(44, 60);
-            txtNombreU.Name = "txtNombreU";
-            txtNombreU.Size = new Size(205, 23);
-            txtNombreU.TabIndex = 0;
-            // 
-            // txtCorreoU
-            // 
-            txtCorreoU.Location = new Point(44, 131);
-            txtCorreoU.Name = "txtCorreoU";
-            txtCorreoU.Size = new Size(205, 23);
-            txtCorreoU.TabIndex = 1;
-            // 
-            // txtContraseña
-            // 
-            txtContraseña.Location = new Point(44, 205);
-            txtContraseña.Name = "txtContraseña";
-            txtContraseña.PasswordChar = '*';
-            txtContraseña.Size = new Size(205, 23);
-            txtContraseña.TabIndex = 2;
-            // 
-            // btnRegistrarU
-            // 
-            btnRegistrarU.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnRegistrarU.Location = new Point(17, 270);
-            btnRegistrarU.Name = "btnRegistrarU";
-            btnRegistrarU.Size = new Size(116, 44);
-            btnRegistrarU.TabIndex = 3;
-            btnRegistrarU.Text = "Registrar";
-            btnRegistrarU.UseVisualStyleBackColor = true;
-            // 
-            // btnCancelarU
-            // 
-            btnCancelarU.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCancelarU.Location = new Point(151, 270);
-            btnCancelarU.Name = "btnCancelarU";
-            btnCancelarU.Size = new Size(116, 44);
-            btnCancelarU.TabIndex = 4;
-            btnCancelarU.Text = "Cancelar";
-            btnCancelarU.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(44, 34);
-            label1.Name = "label1";
-            label1.Size = new Size(147, 21);
-            label1.TabIndex = 5;
-            label1.Text = "Nombre de Usuario";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(44, 107);
-            label2.Name = "label2";
-            label2.Size = new Size(116, 21);
-            label2.TabIndex = 6;
-            label2.Text = "Correo Usuario";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(44, 181);
-            label3.Name = "label3";
-            label3.Size = new Size(89, 21);
-            label3.TabIndex = 7;
-            label3.Text = "Contraseña";
-            // 
             // FrmAdministrador
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(988, 618);
             Controls.Add(panelBProveedor);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "FrmAdministrador";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmAdministrador";
             panelBProveedor.ResumeLayout(false);
+            panelTyT.ResumeLayout(false);
+            panelTyT.PerformLayout();
             lbFondo3.ResumeLayout(false);
             lbFondo3.PerformLayout();
+            panel18.ResumeLayout(false);
+            panel18.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panelTyT.ResumeLayout(false);
-            panelTyT.PerformLayout();
-            panel18.ResumeLayout(false);
-            panel18.PerformLayout();
             ResumeLayout(false);
         }
 
