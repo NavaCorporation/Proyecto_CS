@@ -27,8 +27,11 @@ namespace Proyecto_CS_CNegocio
         public bool MailValido(string correoElectronico)
         {
             return manejarExceptiones.MailValido(correoElectronico);
-        } 
-        
+        }
+        public bool VerificarLog(string nombre_usuario, string contrasena)
+        {
+            return manejarExceptiones.VerificarLog(nombre_usuario, contrasena);
+        }
             
         
 

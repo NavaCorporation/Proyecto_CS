@@ -16,7 +16,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthTesting", "AuthTestin\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{CAF82032-1E04-4D6C-BDD4-F1CEFC61484B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "ExceptionHandling\CustomException.csproj", "{A90621AB-9767-46D9-9E1F-DFD927A7F6B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomException", "ExceptionHandling\CustomException.csproj", "{A90621AB-9767-46D9-9E1F-DFD927A7F6B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

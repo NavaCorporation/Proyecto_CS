@@ -23,7 +23,7 @@ namespace ProyectoCS_CDatos
             cmdCrearProv.Parameters.AddWithValue("@nombre_empresa", nombreEmpresa);
             cmdCrearProv.Parameters.AddWithValue("@contacto_nombre", contactoNombre);
             cmdCrearProv.Parameters.AddWithValue("@contacto_telefono", contactoTelefono);
-            cmdCrearProv.Parameters.AddWithValue("@contacto_correo", contactoCorreo);
+            cmdCrearProv.Parameters.AddWithValue("@correo_electronico", contactoCorreo);
             cmdCrearProv.Parameters.AddWithValue("@direccion", direccion);
             cmdCrearProv.Parameters.AddWithValue("@ciudad", ciudad);
             cmdCrearProv.Parameters.AddWithValue("@provincia", provincia);
