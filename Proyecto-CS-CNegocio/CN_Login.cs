@@ -20,6 +20,17 @@ namespace Proyecto_CS_CNegocio
         {
             return manejarExceptiones.ModuloPorPerfil(username);
         }
+        public bool VerificarUsuario(string nombreUsuario)
+        {
+            return manejarExceptiones.VerificarUsuario(nombreUsuario);
+        }
+        public bool MailValido(string correoElectronico)
+        {
+            return manejarExceptiones.MailValido(correoElectronico);
+        } 
+        
+            
+        
 
         //
     }
