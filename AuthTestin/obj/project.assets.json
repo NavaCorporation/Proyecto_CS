@@ -1172,6 +1172,20 @@
             "rid": "win"
           }
         }
+      },
+      "ProyectoCS-CDatos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.2",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/ProyectoCS-CDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProyectoCS-CDatos.dll": {}
+        }
       }
     }
   },
@@ -3228,6 +3242,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ProyectoCS-CDatos/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoCS-CDatos/ProyectoCS-CDatos.csproj",
+      "msbuildProject": "../ProyectoCS-CDatos/ProyectoCS-CDatos.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3238,6 +3257,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.4.2",
+      "ProyectoCS-CDatos >= 1.0.0",
       "System.Data.SqlClient >= 4.8.5",
       "coverlet.collector >= 3.2.0"
     ]
@@ -3268,7 +3288,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
+              "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoCS-CDatos\ProyectoCS-CDatos.csproj" />
+  </ItemGroup>
+
 </Project>

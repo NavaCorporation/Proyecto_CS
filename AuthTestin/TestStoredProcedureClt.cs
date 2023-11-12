@@ -16,7 +16,7 @@ public class TestStoredProcedureClt
             connection.Open();
 
             // Act
-            using (SqlCommand cmd = new SqlCommand("CrearCliente", connection))
+            using (SqlCommand cmd = new SqlCommand("sp_CrearCliente", connection))
             {
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@nombre_usuario", "TestUsuario");

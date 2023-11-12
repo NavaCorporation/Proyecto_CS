@@ -1,10 +1,6 @@
-﻿using ProyectoCS_CDatos;
-using System;
-using System.Collections.Generic;
+﻿using ExceptionHandling;
+using ProyectoCS_CDatos;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Proyecto_CS_CNegocio
 {
@@ -12,11 +8,17 @@ namespace Proyecto_CS_CNegocio
     public class CN_Login
     {
         //Establecemos contacto con el manejador del login
-        private CD_ManageLogin manejarLog = new CD_ManageLogin();
-        // Llama a un método en la clase "manejarLog" para obtener un DataTable.
-        public DataTable getDataTable ()
+        private CD_ManageLogin manejarLogin = new CD_ManageLogin();
+        //Establecemos contacto con el manejador de excepciones
+        private CE_Log manejarExceptiones = new CE_Log();
+        // Llama a un método en la clase "manejarLogin" para obtener un DataTable.
+        public DataTable getDataUsuario()
         {
-            return manejarLog.getDataTable();
+            return manejarLogin.getDataTable();
+        }
+        public string ModuloPorPerfil(string username)
+        {
+            return manejarExceptiones.ModuloPorPerfil(username);
         }
 
         //

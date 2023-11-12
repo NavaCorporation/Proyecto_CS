@@ -16,7 +16,7 @@ public class TestStoredProcedureProv
             connection.Open();
 
             // Act
-            using (SqlCommand cmd = new SqlCommand("CrearProveedor", connection))
+            using (SqlCommand cmd = new SqlCommand("sp_CrearProveedor", connection))
             {
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@nombre_usuario", "TestUsuario");

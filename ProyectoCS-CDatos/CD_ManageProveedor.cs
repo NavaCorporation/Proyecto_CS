@@ -16,7 +16,7 @@ namespace ProyectoCS_CDatos
             SqlCommand cmdCrearProv = new SqlCommand();
             cmdCrearProv.Connection = conn.OpenConnection();
             cmdCrearProv.CommandType = CommandType.StoredProcedure;
-            cmdCrearProv.CommandText = "CrearCliente";
+            cmdCrearProv.CommandText = "sp_CrearCliente";
             // Parámetros del procedimiento almacenado
             cmdCrearProv.Parameters.AddWithValue("@nombre_usuario", nombreUsuario);
             cmdCrearProv.Parameters.AddWithValue("@contrasena", contrasena);
