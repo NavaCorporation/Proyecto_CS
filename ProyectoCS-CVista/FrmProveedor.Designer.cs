@@ -198,6 +198,7 @@
             // button1
             // 
             button1.BackColor = Color.Black;
+            button1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(184, 381);
             button1.Name = "button1";
@@ -209,6 +210,7 @@
             // button2
             // 
             button2.BackColor = Color.Black;
+            button2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ButtonHighlight;
             button2.Location = new Point(330, 381);
             button2.Name = "button2";

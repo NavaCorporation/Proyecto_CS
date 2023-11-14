@@ -28,3 +28,7 @@ C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\refint\ProyectoCS-CNegocio.dll
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\ProyectoCS-CNegocio.pdb
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\Proyecto-CS-CNegocio\obj\Debug\net6.0\ref\ProyectoCS-CNegocio.dll
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\bin\Debug\net6.0\CustomException.dll
+C:\Users\nava\source\repos\Proyecto_CS\Proyecto-CS-CNegocio\bin\Debug\net6.0\CustomException.pdb
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\Proyecto-CS-CNegocio\bin\Debug\net6.0\CustomException.dll
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\Proyecto-CS-CNegocio\bin\Debug\net6.0\CustomException.pdb

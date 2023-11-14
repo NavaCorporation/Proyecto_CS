@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ByzNJZANeurI5Lfs9PwaYkbxAArBuZzkNsUtOJc/jQ38SmM7T0fHV8jGF9D4OC9/ZCRqg7+YIyy+3uEKwpD0Uw==",
+  "dgSpecHash": "9i+wv7gUeMmzTCKLzElL3wUK68oyewai/FtKlzQH9Kap+VcCgLuSE4z+m7hBtIcHsAKljMOf35IwCktmTeD63Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\AuthTestin\\AuthTesting.csproj",
   "expectedPackageFiles": [
@@ -63,5 +63,12 @@
     "C:\\Users\\steve\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\steve\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\steve\\Desktop\\proyectoCS\\Proyecto_CS\\AuthTestin\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

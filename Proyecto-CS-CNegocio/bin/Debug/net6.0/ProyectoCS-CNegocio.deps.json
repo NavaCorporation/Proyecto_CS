@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ProyectoCS-CNegocio/1.0.0": {
         "dependencies": {
+          "CustomException": "1.0.0",
           "ProyectoCS-CDatos": "1.0.0"
         },
         "runtime": {
@@ -471,6 +472,14 @@
           }
         }
       },
+      "CustomException/1.0.0": {
+        "dependencies": {
+          "ProyectoCS-CDatos": "1.0.0"
+        },
+        "runtime": {
+          "CustomException.dll": {}
+        }
+      },
       "ProyectoCS-CDatos/1.0.0": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.1.2",
@@ -809,6 +818,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "CustomException/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ProyectoCS-CDatos/1.0.0": {
       "type": "project",

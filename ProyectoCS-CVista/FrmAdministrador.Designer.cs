@@ -30,6 +30,8 @@
         {
             panelBProveedor = new Panel();
             panel17 = new Panel();
+            panelTyT = new Panel();
+            lbPro = new Label();
             lbFondo3 = new Panel();
             panel18 = new Panel();
             label3 = new Label();
@@ -68,9 +70,8 @@
             panel1 = new Panel();
             panel4 = new Panel();
             panel5 = new Panel();
-            panelTyT = new Panel();
-            lbPro = new Label();
             panelBProveedor.SuspendLayout();
+            panelTyT.SuspendLayout();
             lbFondo3.SuspendLayout();
             panel18.SuspendLayout();
             panel2.SuspendLayout();
@@ -78,7 +79,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panelTyT.SuspendLayout();
             SuspendLayout();
             // 
             // panelBProveedor
@@ -114,6 +114,25 @@
             panel17.Name = "panel17";
             panel17.Size = new Size(4, 443);
             panel17.TabIndex = 15;
+            // 
+            // panelTyT
+            // 
+            panelTyT.BackColor = Color.FromArgb(246, 194, 19);
+            panelTyT.Controls.Add(lbPro);
+            panelTyT.Location = new Point(0, 0);
+            panelTyT.Name = "panelTyT";
+            panelTyT.Size = new Size(985, 83);
+            panelTyT.TabIndex = 0;
+            // 
+            // lbPro
+            // 
+            lbPro.AutoSize = true;
+            lbPro.Font = new Font("Segoe UI", 32F, FontStyle.Bold, GraphicsUnit.Point);
+            lbPro.Location = new Point(252, 9);
+            lbPro.Name = "lbPro";
+            lbPro.Size = new Size(447, 59);
+            lbPro.TabIndex = 0;
+            lbPro.Text = "TUERCA Y TORNILLO";
             // 
             // lbFondo3
             // 
@@ -473,25 +492,6 @@
             panel5.Size = new Size(3, 38);
             panel5.TabIndex = 3;
             // 
-            // panelTyT
-            // 
-            panelTyT.BackColor = Color.FromArgb(246, 194, 19);
-            panelTyT.Controls.Add(lbPro);
-            panelTyT.Location = new Point(0, 0);
-            panelTyT.Name = "panelTyT";
-            panelTyT.Size = new Size(985, 83);
-            panelTyT.TabIndex = 0;
-            // 
-            // lbPro
-            // 
-            lbPro.AutoSize = true;
-            lbPro.Font = new Font("Segoe UI", 32F, FontStyle.Bold, GraphicsUnit.Point);
-            lbPro.Location = new Point(252, 9);
-            lbPro.Name = "lbPro";
-            lbPro.Size = new Size(447, 59);
-            lbPro.TabIndex = 0;
-            lbPro.Text = "TUERCA Y TORNILLO";
-            // 
             // FrmAdministrador
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -504,6 +504,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmAdministrador";
             panelBProveedor.ResumeLayout(false);
+            panelTyT.ResumeLayout(false);
+            panelTyT.PerformLayout();
             lbFondo3.ResumeLayout(false);
             lbFondo3.PerformLayout();
             panel18.ResumeLayout(false);
@@ -514,8 +516,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panelTyT.ResumeLayout(false);
-            panelTyT.PerformLayout();
             ResumeLayout(false);
         }
 

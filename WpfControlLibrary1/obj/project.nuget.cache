@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2ouImnDnxp7UpfWNS6E3aHi33Eb7aRAjPiZoZUa6TW0kJFJ6d69aSvo83XpF58lmA5xy7ujsMqrPgscWGkL2sA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\WpfControlLibrary1\\WpfControlLibrary1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -31,9 +31,20 @@
             panelBProveedor = new Panel();
             panel17 = new Panel();
             lbCrearCliente = new Panel();
+            btnLimpUser = new Button();
+            btnCrearUser = new Button();
+            txtTeleUser = new TextBox();
+            txtContraUser = new TextBox();
+            txtCorreoUser = new TextBox();
+            txtDireUser = new TextBox();
+            txtNombreUser = new TextBox();
+            lbCorreoUser = new Label();
+            lbTeleUser = new Label();
+            lbDireUser = new Label();
+            lbPassUser = new Label();
+            lbNombreUser = new Label();
             panel10 = new Panel();
             textBox1 = new TextBox();
-            lbCearUser = new Label();
             panel13 = new Panel();
             panel16 = new Panel();
             panel15 = new Panel();
@@ -61,18 +72,6 @@
             panel5 = new Panel();
             panelTyT = new Panel();
             lbPro = new Label();
-            lbNombreUser = new Label();
-            lbPassUser = new Label();
-            lbDireUser = new Label();
-            lbTeleUser = new Label();
-            lbCorreoUser = new Label();
-            txtNombreUser = new TextBox();
-            txtDireUser = new TextBox();
-            txtCorreoUser = new TextBox();
-            txtContraUser = new TextBox();
-            txtTeleUser = new TextBox();
-            btnCrearUser = new Button();
-            btnLimpUser = new Button();
             panelBProveedor.SuspendLayout();
             lbCrearCliente.SuspendLayout();
             panel2.SuspendLayout();
@@ -119,7 +118,7 @@
             // 
             // lbCrearCliente
             // 
-            lbCrearCliente.BackColor = Color.SkyBlue;
+            lbCrearCliente.BackColor = Color.FromArgb(247, 244, 233);
             lbCrearCliente.Controls.Add(btnLimpUser);
             lbCrearCliente.Controls.Add(btnCrearUser);
             lbCrearCliente.Controls.Add(txtTeleUser);
@@ -134,12 +133,121 @@
             lbCrearCliente.Controls.Add(lbNombreUser);
             lbCrearCliente.Controls.Add(panel10);
             lbCrearCliente.Controls.Add(textBox1);
-            lbCrearCliente.Controls.Add(lbCearUser);
             lbCrearCliente.Controls.Add(panel13);
             lbCrearCliente.Location = new Point(217, 150);
             lbCrearCliente.Name = "lbCrearCliente";
             lbCrearCliente.Size = new Size(758, 440);
             lbCrearCliente.TabIndex = 13;
+            // 
+            // btnLimpUser
+            // 
+            btnLimpUser.BackColor = Color.Black;
+            btnLimpUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpUser.ForeColor = SystemColors.ControlLightLight;
+            btnLimpUser.Location = new Point(381, 336);
+            btnLimpUser.Name = "btnLimpUser";
+            btnLimpUser.Size = new Size(101, 57);
+            btnLimpUser.TabIndex = 26;
+            btnLimpUser.Text = "Limpiar";
+            btnLimpUser.UseVisualStyleBackColor = false;
+            // 
+            // btnCrearUser
+            // 
+            btnCrearUser.BackColor = Color.Black;
+            btnCrearUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCrearUser.ForeColor = SystemColors.ButtonHighlight;
+            btnCrearUser.Location = new Point(240, 336);
+            btnCrearUser.Name = "btnCrearUser";
+            btnCrearUser.Size = new Size(101, 57);
+            btnCrearUser.TabIndex = 25;
+            btnCrearUser.Text = "Crear";
+            btnCrearUser.UseVisualStyleBackColor = false;
+            // 
+            // txtTeleUser
+            // 
+            txtTeleUser.Location = new Point(562, 104);
+            txtTeleUser.Name = "txtTeleUser";
+            txtTeleUser.Size = new Size(141, 23);
+            txtTeleUser.TabIndex = 24;
+            // 
+            // txtContraUser
+            // 
+            txtContraUser.Location = new Point(284, 200);
+            txtContraUser.Name = "txtContraUser";
+            txtContraUser.PasswordChar = '*';
+            txtContraUser.Size = new Size(176, 23);
+            txtContraUser.TabIndex = 23;
+            // 
+            // txtCorreoUser
+            // 
+            txtCorreoUser.Location = new Point(26, 200);
+            txtCorreoUser.Name = "txtCorreoUser";
+            txtCorreoUser.Size = new Size(161, 23);
+            txtCorreoUser.TabIndex = 22;
+            // 
+            // txtDireUser
+            // 
+            txtDireUser.Location = new Point(284, 104);
+            txtDireUser.Name = "txtDireUser";
+            txtDireUser.Size = new Size(176, 23);
+            txtDireUser.TabIndex = 21;
+            // 
+            // txtNombreUser
+            // 
+            txtNombreUser.Location = new Point(26, 103);
+            txtNombreUser.Name = "txtNombreUser";
+            txtNombreUser.Size = new Size(161, 23);
+            txtNombreUser.TabIndex = 20;
+            // 
+            // lbCorreoUser
+            // 
+            lbCorreoUser.AutoSize = true;
+            lbCorreoUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lbCorreoUser.Location = new Point(26, 176);
+            lbCorreoUser.Name = "lbCorreoUser";
+            lbCorreoUser.Size = new Size(138, 21);
+            lbCorreoUser.TabIndex = 19;
+            lbCorreoUser.Text = "Correo Electronico";
+            // 
+            // lbTeleUser
+            // 
+            lbTeleUser.AutoSize = true;
+            lbTeleUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lbTeleUser.Location = new Point(562, 80);
+            lbTeleUser.Name = "lbTeleUser";
+            lbTeleUser.Size = new Size(68, 21);
+            lbTeleUser.TabIndex = 18;
+            lbTeleUser.Text = "Telefono";
+            // 
+            // lbDireUser
+            // 
+            lbDireUser.AutoSize = true;
+            lbDireUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lbDireUser.Location = new Point(284, 80);
+            lbDireUser.Name = "lbDireUser";
+            lbDireUser.Size = new Size(75, 21);
+            lbDireUser.TabIndex = 17;
+            lbDireUser.Text = "Direccion";
+            // 
+            // lbPassUser
+            // 
+            lbPassUser.AutoSize = true;
+            lbPassUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lbPassUser.Location = new Point(284, 176);
+            lbPassUser.Name = "lbPassUser";
+            lbPassUser.Size = new Size(89, 21);
+            lbPassUser.TabIndex = 16;
+            lbPassUser.Text = "Contraseña";
+            // 
+            // lbNombreUser
+            // 
+            lbNombreUser.AutoSize = true;
+            lbNombreUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lbNombreUser.Location = new Point(26, 79);
+            lbNombreUser.Name = "lbNombreUser";
+            lbNombreUser.Size = new Size(126, 21);
+            lbNombreUser.TabIndex = 15;
+            lbNombreUser.Text = "Nombre Usuario";
             // 
             // panel10
             // 
@@ -151,20 +259,10 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(55, 97);
+            textBox1.Location = new Point(55, 74);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(0, 23);
             textBox1.TabIndex = 9;
-            // 
-            // lbCearUser
-            // 
-            lbCearUser.AutoSize = true;
-            lbCearUser.Font = new Font("Segoe UI", 32.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lbCearUser.Location = new Point(184, 10);
-            lbCearUser.Name = "lbCearUser";
-            lbCearUser.Size = new Size(298, 59);
-            lbCearUser.TabIndex = 8;
-            lbCearUser.Text = "Crear Usuario";
             // 
             // panel13
             // 
@@ -417,112 +515,6 @@
             lbPro.TabIndex = 0;
             lbPro.Text = "TUERCA Y TORNILLO";
             // 
-            // lbNombreUser
-            // 
-            lbNombreUser.AutoSize = true;
-            lbNombreUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lbNombreUser.Location = new Point(26, 102);
-            lbNombreUser.Name = "lbNombreUser";
-            lbNombreUser.Size = new Size(126, 21);
-            lbNombreUser.TabIndex = 15;
-            lbNombreUser.Text = "Nombre Usuario";
-            // 
-            // lbPassUser
-            // 
-            lbPassUser.AutoSize = true;
-            lbPassUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lbPassUser.Location = new Point(284, 199);
-            lbPassUser.Name = "lbPassUser";
-            lbPassUser.Size = new Size(89, 21);
-            lbPassUser.TabIndex = 16;
-            lbPassUser.Text = "Contraseña";
-            // 
-            // lbDireUser
-            // 
-            lbDireUser.AutoSize = true;
-            lbDireUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lbDireUser.Location = new Point(284, 103);
-            lbDireUser.Name = "lbDireUser";
-            lbDireUser.Size = new Size(75, 21);
-            lbDireUser.TabIndex = 17;
-            lbDireUser.Text = "Direccion";
-            // 
-            // lbTeleUser
-            // 
-            lbTeleUser.AutoSize = true;
-            lbTeleUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lbTeleUser.Location = new Point(562, 103);
-            lbTeleUser.Name = "lbTeleUser";
-            lbTeleUser.Size = new Size(68, 21);
-            lbTeleUser.TabIndex = 18;
-            lbTeleUser.Text = "Telefono";
-            // 
-            // lbCorreoUser
-            // 
-            lbCorreoUser.AutoSize = true;
-            lbCorreoUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lbCorreoUser.Location = new Point(26, 199);
-            lbCorreoUser.Name = "lbCorreoUser";
-            lbCorreoUser.Size = new Size(138, 21);
-            lbCorreoUser.TabIndex = 19;
-            lbCorreoUser.Text = "Correo Electronico";
-            // 
-            // txtNombreUser
-            // 
-            txtNombreUser.Location = new Point(26, 126);
-            txtNombreUser.Name = "txtNombreUser";
-            txtNombreUser.Size = new Size(161, 23);
-            txtNombreUser.TabIndex = 20;
-            // 
-            // txtDireUser
-            // 
-            txtDireUser.Location = new Point(284, 127);
-            txtDireUser.Name = "txtDireUser";
-            txtDireUser.Size = new Size(176, 23);
-            txtDireUser.TabIndex = 21;
-            // 
-            // txtCorreoUser
-            // 
-            txtCorreoUser.Location = new Point(26, 223);
-            txtCorreoUser.Name = "txtCorreoUser";
-            txtCorreoUser.Size = new Size(161, 23);
-            txtCorreoUser.TabIndex = 22;
-            // 
-            // txtContraUser
-            // 
-            txtContraUser.Location = new Point(284, 223);
-            txtContraUser.Name = "txtContraUser";
-            txtContraUser.PasswordChar = '*';
-            txtContraUser.Size = new Size(176, 23);
-            txtContraUser.TabIndex = 23;
-            // 
-            // txtTeleUser
-            // 
-            txtTeleUser.Location = new Point(562, 127);
-            txtTeleUser.Name = "txtTeleUser";
-            txtTeleUser.Size = new Size(141, 23);
-            txtTeleUser.TabIndex = 24;
-            // 
-            // btnCrearUser
-            // 
-            btnCrearUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCrearUser.Location = new Point(240, 336);
-            btnCrearUser.Name = "btnCrearUser";
-            btnCrearUser.Size = new Size(101, 57);
-            btnCrearUser.TabIndex = 25;
-            btnCrearUser.Text = "Crear";
-            btnCrearUser.UseVisualStyleBackColor = true;
-            // 
-            // btnLimpUser
-            // 
-            btnLimpUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnLimpUser.Location = new Point(381, 336);
-            btnLimpUser.Name = "btnLimpUser";
-            btnLimpUser.Size = new Size(101, 57);
-            btnLimpUser.TabIndex = 26;
-            btnLimpUser.Text = "Limpiar";
-            btnLimpUser.UseVisualStyleBackColor = true;
-            // 
             // FrmCliente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -556,7 +548,6 @@
         private Label lbNombreUser;
         private Panel panel10;
         private TextBox textBox1;
-        private Label lbCearUser;
         private Panel panel13;
         private Panel panel16;
         private Panel panel15;
