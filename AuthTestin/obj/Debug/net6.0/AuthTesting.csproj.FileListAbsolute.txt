@@ -276,3 +276,6 @@ C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\AuthTestin\obj\Debug\net6.0\refint
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\AuthTestin\obj\Debug\net6.0\AuthTesting.pdb
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\AuthTestin\obj\Debug\net6.0\AuthTesting.genruntimeconfig.cache
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\AuthTestin\obj\Debug\net6.0\ref\AuthTesting.dll
+C:\Users\nava\source\repos\Proyecto_CS\AuthTestin\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\nava\source\repos\Proyecto_CS\AuthTestin\bin\Debug\net6.0\ProyectoCS-CDatos.dll
+C:\Users\nava\source\repos\Proyecto_CS\AuthTestin\bin\Debug\net6.0\ProyectoCS-CDatos.pdb

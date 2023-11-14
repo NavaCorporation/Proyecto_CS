@@ -12,7 +12,7 @@ namespace ProyectoCS_CVista
 {
     public partial class FrmCliente : Form
     {
-        public FrmCliente()
+        public FrmCliente(string user)
         {
             InitializeComponent();
         }

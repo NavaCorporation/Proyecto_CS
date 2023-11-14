@@ -29,7 +29,7 @@ namespace AuthTesting
                 connection.Open();
 
                 // Llama al procedimiento almacenado CrearUsuarioYCliente
-                using (SqlCommand command = new SqlCommand("CrearCliente", connection))
+                using (SqlCommand command = new SqlCommand("sp_CrearCliente", connection))
                 {
                     command.CommandType = System.Data.CommandType.StoredProcedure;
 

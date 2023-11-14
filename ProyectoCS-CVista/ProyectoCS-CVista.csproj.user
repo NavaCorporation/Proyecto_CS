@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="FrmAdministrador.cs">
+    <Compile Update="FrmCrearCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrMainClient.cs">
+    <Compile Update="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPlantillaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmBuscarProveedor.cs">
@@ -29,6 +35,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmRealizarCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmRecuperar.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

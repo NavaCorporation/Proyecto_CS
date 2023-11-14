@@ -12,7 +12,7 @@ namespace ProyectoCS_CVista
 {
     public partial class FrmAdministrador : Form
     {
-        public FrmAdministrador()
+        public FrmAdministrador(string user)
         {
             InitializeComponent();
         }
