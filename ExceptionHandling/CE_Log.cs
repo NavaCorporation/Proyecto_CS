@@ -46,7 +46,7 @@ namespace ExceptionHandling
         }
         public bool VerificarCorreo(string correo_electronico)
         {
-            string sql = "sp_Verificar_correo"; // Corrige el nombre aquí
+            string sql = "sp_Verificar_correo"; // Campo para ejecucion de los procedimientos almacenados
             SqlCommand cmd = new SqlCommand(sql, conn.OpenConnection());
             cmd.CommandType = CommandType.StoredProcedure; // Asegúrate de especificar el tipo de comando como procedimiento almacenado
             cmd.Parameters.AddWithValue("@nombre_usuario", correo_electronico); // Ajusta el nombre del parámetro si es necesario

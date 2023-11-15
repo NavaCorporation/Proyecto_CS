@@ -12,7 +12,7 @@ namespace Proyecto_CS_CNegocio
             SqlCommand cmdCrearCliente = new SqlCommand();
             cmdCrearCliente.Connection = conn.OpenConnection();
             cmdCrearCliente.CommandType = CommandType.StoredProcedure;
-            cmdCrearCliente.CommandText = "sp_CrearCliente";
+            cmdCrearCliente.CommandText = "EXECUTE sp_CrearCliente @nombre_usuario,@contrasena,@direccion, @correo_electronico, @telefono ";
             // Parámetros del procedimiento almacenado
             cmdCrearCliente.Parameters.AddWithValue("@nombre_usuario", nombreUsuario);
             cmdCrearCliente.Parameters.AddWithValue("@contrasena", contrasena);
