@@ -100,6 +100,7 @@ C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS-CVista.pdb
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS-CVista.genruntimeconfig.cache
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ref\ProyectoCS-CVista.dll
+C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrMainClient.resources
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrMainClient.resources
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.Properties.Resources.resources
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmProveedor.resources
@@ -119,10 +120,10 @@ C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-window
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmAdministrador.resources
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmModificarProveedor.resources
 C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmRealizarCompras.resources
-C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmCliente.resources
-C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmCrearCliente.resources
-C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\CapaPresentacion.frmMain.resources
-C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmPlantillaAdmin.resources
-C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\CapaPresentacion.frmRecuperar.resources
-C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\bin\Debug\net6.0-windows\CustomException.dll
-C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\bin\Debug\net6.0-windows\CustomException.pdb
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmCliente.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\bin\Debug\net6.0-windows\CustomException.dll
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\bin\Debug\net6.0-windows\CustomException.pdb
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmCrearCliente.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\CapaPresentacion.frmMain.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\ProyectoCS_CVista.FrmPlantillaAdmin.resources
+C:\Users\steve\Desktop\proyectoCS\Proyecto_CS\ProyectoCS-CVista\obj\Debug\net6.0-windows\CapaPresentacion.frmRecuperar.resources

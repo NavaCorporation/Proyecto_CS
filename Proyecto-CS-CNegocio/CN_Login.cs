@@ -35,6 +35,18 @@ namespace Proyecto_CS_CNegocio
             
         
 
-        //
+        //veridica login
+
+       /* public bool VerificarLog(string username, string contrasena)
+        {
+            return manejarLog.VerificarLog(username, contrasena);
+        }
+       */
+
+
+
+
+
+
     }
 }

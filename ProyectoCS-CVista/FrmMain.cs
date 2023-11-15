@@ -27,6 +27,7 @@ namespace CapaPresentacion
         public frmMain()
         {
             InitializeComponent();
+            
         }
 
 
@@ -99,7 +100,7 @@ namespace CapaPresentacion
                 errorLogin.SetError(tbUsername, "Usuario o contraseña incorrecta.");
                 return;
             }
-            
+
 
             if (!manejarLogin.VerificarLog(nombreUsuario, contrasena))
             {
