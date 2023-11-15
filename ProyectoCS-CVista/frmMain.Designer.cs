@@ -55,7 +55,7 @@
             // 
             // panelLog
             // 
-            panelLog.BackColor = SystemColors.ActiveCaption;
+            panelLog.BackColor = Color.FromArgb(255, 255, 192);
             panelLog.Controls.Add(gbLogin);
             panelLog.Location = new Point(253, 14);
             panelLog.Name = "panelLog";
@@ -66,7 +66,7 @@
             // 
             gbLogin.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             gbLogin.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            gbLogin.BackColor = SystemColors.GradientInactiveCaption;
+            gbLogin.BackColor = Color.FromArgb(247, 244, 233);
             gbLogin.Controls.Add(btSesion);
             gbLogin.Controls.Add(registro);
             gbLogin.Controls.Add(label2);
@@ -157,7 +157,6 @@
             Name = "frmMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Votacion";
-            //Load += frmMain_Load;
             panelHijoForm.ResumeLayout(false);
             panelLog.ResumeLayout(false);
             gbLogin.ResumeLayout(false);

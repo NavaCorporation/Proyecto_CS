@@ -23,8 +23,17 @@ namespace ProyectoCS_CDatos
             conn.CloseConnection();
             return dt;
         }
+        /*public bool VerificarLog(string username, string contrasena)
+        {
+            string sql = "EXECUTE VERIFICAR_LOG @username, @contrasena";
+            SqlCommand cmd = new SqlCommand(sql, conn.OpenConnection());
+            cmd.Parameters.AddWithValue("@username", username);
+            cmd.Parameters.AddWithValue("@contrasena", contrasena);
+            int count = (int)cmd.ExecuteScalar();
+            conn.CloseConnection();
+            return count > 0;
 
-        
+        }*/
     }  
 
     
