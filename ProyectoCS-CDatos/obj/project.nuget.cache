@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1RQNd9hX9weBPnw17NpgsI/o31Nwk1mE0u76fGtAA5MTQrczgRic9kxRquZ9ZLjTSP4O+tF12IeU2LD8NplMcw==",
+  "dgSpecHash": "DmJc2I+lpOAsSX96UiBIy12VIS87trcuxUj4RvY/kybU8yLcs18EW++NHTyEmyBqJ+VzzXAD51wlkP+xBSGerQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj",
+  "projectFilePath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nava\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

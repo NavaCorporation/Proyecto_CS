@@ -2350,11 +2350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
+      "projectUniqueName": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
       "projectName": "ProyectoCS-CVista",
-      "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
+      "projectPath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
       "packagesPath": "C:\\Users\\nava\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\obj\\",
+      "outputPath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\ProyectoCS-CVista\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nava\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2371,8 +2371,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj": {
-              "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj"
+            "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj": {
+              "projectPath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj"
             }
           }
         }
