@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GEu+ORLt6FCoCRFaJ67dYUILR5prP+4iXY1qPCfSZJXkikH+r12Xw9xMrbEEJhJrTl5uaUnGJDlP9cUbhzr1OA==",
+  "dgSpecHash": "h5MilRgSD59uPdpncKxhw8iZXHAR5F+gRyyD3mARFEN6nqSc9jO+Hh9B9zh+dvj6o4DIfdBJ/AFh5zHVky91Fw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\AuthTestin\\AuthTesting.csproj",
+  "projectFilePath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\AuthTestin\\AuthTesting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nava\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -62,8 +62,8 @@
     "C:\\Users\\nava\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\nava\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512"
   ],
   "logs": []
