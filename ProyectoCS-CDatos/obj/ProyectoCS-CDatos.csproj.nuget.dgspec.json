@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {}
+    "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
+    "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj",
+        "projectUniqueName": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj",
         "projectName": "ProyectoCS-CDatos",
-        "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj",
+        "projectPath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj",
         "packagesPath": "C:\\Users\\nava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\obj\\",
+        "outputPath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\ProyectoCS-CDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nava\\AppData\\Roaming\\NuGet\\NuGet.Config",
