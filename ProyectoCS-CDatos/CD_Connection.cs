@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 
-
+//Esto es una prueba de dialogo
 namespace ProyectoCS_CDatos
 {
     public class CD_Connection

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5eqmK3IXV5SsAIDfI8tYZgdGBITar2qUxFTge/JJ1EQ5KBYJgQvTwN9HvkTVgCRMi3QSDaFW/rE9Cj5LJiXJ1Q==",
+  "dgSpecHash": "bdH6G2eIAK6EnvnM2V7jaWzCIIAkZBSBTcC/WZh912k2mKK5T5uuvXLsgdfCUyBbqx18Qh80uZtPAX0jQeSpJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto_CS\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nava\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\nava\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512"
   ],
   "logs": []
