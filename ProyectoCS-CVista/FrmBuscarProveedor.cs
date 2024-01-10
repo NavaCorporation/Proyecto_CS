@@ -31,5 +31,10 @@ namespace ProyectoCS_CVista
         {
 
         }
+
+        private void panelBProveedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

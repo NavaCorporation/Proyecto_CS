@@ -107,6 +107,7 @@
             panelBProveedor.Name = "panelBProveedor";
             panelBProveedor.Size = new Size(985, 617);
             panelBProveedor.TabIndex = 1;
+            panelBProveedor.Paint += panelBProveedor_Paint;
             // 
             // panel17
             // 

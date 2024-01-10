@@ -4,6 +4,12 @@
     <Compile Update="FrmAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmAgregarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmBuscarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmBuscarProveedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -20,6 +26,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmModificarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMostrarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmMostrarProveedor.cs">
