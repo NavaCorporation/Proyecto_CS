@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "DVl2f8x+wmjWLau+s2zViDQ/9jZjgqCjo48bRvN4arXidH16pTG2bI1s+OI+LULOA9CUgAL+uEntUe75dIAZ1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj",
+=======
+  "dgSpecHash": "4yvOoBHyMxkQ/wde9WbZ6iWwvUGjlZ6zc5tLG0rwGxok84bS/eemLbPAxwyyw5QsbHbYo0t+yzUoOYQWsPe7Aw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj",
+>>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
   "expectedPackageFiles": [
     "C:\\Users\\nava\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

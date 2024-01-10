@@ -2332,11 +2332,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj",
       "projectName": "ProyectoCS-CNegocio",
       "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj",
       "packagesPath": "C:\\Users\\nava\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj",
+      "projectName": "ProyectoCS-CNegocio",
+      "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj",
+      "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\Proyecto-CS-CNegocio\\obj\\",
+>>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nava\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2353,11 +2361,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj": {
               "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj"
             },
             "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
               "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
+=======
+            "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj": {
+              "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj"
+            },
+            "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
+              "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
+>>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
             }
           }
         }

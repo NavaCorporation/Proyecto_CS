@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "kGBMzmjWLYIfarvzjRhTPCyy1aZFdPPs4b8xPUNP1fs+yH8Y3PwvxPnvT2WbJvKN2KDS8w6S5pvRGLym4c+vqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
+=======
+  "dgSpecHash": "3e/6rFplYHdUtA56kd8BStCZcnuzOLqOPJJWzzPbSnUfkTaVByl64G1BZdrx5T0ZiAQgjKfHbX6oZDKZ1+q4lw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
+>>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
   "expectedPackageFiles": [
     "C:\\Users\\nava\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

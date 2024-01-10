@@ -14,4 +14,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoCS_CVista
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\nava\source\repos\Proyecto_CS\ProyectoCS-CVista\
+=======
+build_property.ProjectDir = C:\Users\steve\Documents\GitHub\Proyecto_CS\ProyectoCS-CVista\
+>>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
