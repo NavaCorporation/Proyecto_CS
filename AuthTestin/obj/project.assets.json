@@ -3268,11 +3268,25 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
       "projectUniqueName": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\AuthTestin\\AuthTesting.csproj",
       "projectName": "AuthTesting",
       "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\AuthTestin\\AuthTesting.csproj",
       "packagesPath": "C:\\Users\\nava\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\AuthTestin\\obj\\",
+<<<<<<< HEAD
+=======
+=======
+      "projectUniqueName": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\AuthTestin\\AuthTesting.csproj",
+      "projectName": "AuthTesting",
+      "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\AuthTestin\\AuthTesting.csproj",
+      "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\AuthTestin\\obj\\",
+>>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
+>>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nava\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3289,8 +3303,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
               "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
+=======
+<<<<<<< HEAD
+            "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
+              "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
+=======
+            "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
+              "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
+>>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
+>>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
             }
           }
         }

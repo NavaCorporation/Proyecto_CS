@@ -1,8 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "GEu+ORLt6FCoCRFaJ67dYUILR5prP+4iXY1qPCfSZJXkikH+r12Xw9xMrbEEJhJrTl5uaUnGJDlP9cUbhzr1OA==",
   "success": true,
   "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\AuthTestin\\AuthTesting.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "GEu+ORLt6FCoCRFaJ67dYUILR5prP+4iXY1qPCfSZJXkikH+r12Xw9xMrbEEJhJrTl5uaUnGJDlP9cUbhzr1OA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\AuthTestin\\AuthTesting.csproj",
+=======
+  "dgSpecHash": "pJCn5H32RJkTEc0LIJpBwDR3yebf95+/dWMMwTJIjhfxDigvZEsAvhzdJq3UUjM/aIK5+/cswVDumbQSo0POxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\AuthTestin\\AuthTesting.csproj",
+>>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
+>>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
   "expectedPackageFiles": [
     "C:\\Users\\nava\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
