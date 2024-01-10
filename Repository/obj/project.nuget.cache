@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bdH6G2eIAK6EnvnM2V7jaWzCIIAkZBSBTcC/WZh912k2mKK5T5uuvXLsgdfCUyBbqx18Qh80uZtPAX0jQeSpJQ==",
+  "dgSpecHash": "c0A0jdA+iQpuJ5ohwbowAT3MkyQ/+HA1ALRz3wmpgtLBUqwthSFzLGVSZa0S9G3sheAuZKsGkQG74pbSN7uDgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nava\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NhwFpK7V4teTpMEPI3a18KtSWsgvyrk53csiLhT8VvKfy5Vpxr107H/jOroRuAtffWC93NoSqLR7xj/ctNluug==",
+  "dgSpecHash": "kGBMzmjWLYIfarvzjRhTPCyy1aZFdPPs4b8xPUNP1fs+yH8Y3PwvxPnvT2WbJvKN2KDS8w6S5pvRGLym4c+vqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
+  "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nava\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

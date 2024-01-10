@@ -2313,11 +2313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\ExceptionHandling\\CustomException.csproj",
+      "projectUniqueName": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj",
       "projectName": "CustomException",
-      "projectPath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\ExceptionHandling\\CustomException.csproj",
+      "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj",
       "packagesPath": "C:\\Users\\nava\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\ExceptionHandling\\obj\\",
+      "outputPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nava\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2334,8 +2334,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
-              "projectPath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
+            "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
+              "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
             }
           }
         }

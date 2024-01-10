@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NjDxOeoPdih931AwR3ztnkU7dfa4b0q7DzYQGrw7P7EK7afNNCslLg2A68hsfmF6olLhASLpXdOt4J4R6GCj+w==",
+  "dgSpecHash": "tZxYylLbIdGBuzpAulNyMGbHx3CsRqTf1dGmvr9OQnmoYVKdP7vBXFuYyRahC93IDP+MvcmA5vgGXorukKBrKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nava\\Desktop\\Proyecto_Tuerca_Tornillo\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj",
+  "projectFilePath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nava\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nava\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
