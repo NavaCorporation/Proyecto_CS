@@ -1,24 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
-    "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj",
-        "projectName": "CustomException",
-        "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj",
-        "packagesPath": "C:\\Users\\nava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\obj\\",
-<<<<<<< HEAD
-=======
-=======
     "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj": {}
   },
   "projects": {
@@ -30,11 +12,13 @@
         "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj",
         "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ExceptionHandling\\obj\\",
->>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,18 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
-                "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
-=======
-<<<<<<< HEAD
-              "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
-                "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
-=======
               "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
                 "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
->>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
               }
             }
           }
@@ -84,44 +58,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
-    "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj",
-        "projectName": "ProyectoCS-CNegocio",
-        "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj",
-        "packagesPath": "C:\\Users\\nava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\obj\\",
-<<<<<<< HEAD
-=======
-=======
     "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -130,11 +75,13 @@
         "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj",
         "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\Proyecto-CS-CNegocio\\obj\\",
->>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,25 +95,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
-              "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj": {
-                "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj"
-              },
-              "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
-                "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
-<<<<<<< HEAD
-=======
-=======
               "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj": {
                 "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ExceptionHandling\\CustomException.csproj"
               },
               "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
                 "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj"
->>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
               }
             }
           }
@@ -191,44 +124,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
-    "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj",
-        "projectName": "ProyectoCS-CDatos",
-        "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj",
-        "packagesPath": "C:\\Users\\nava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CDatos\\obj\\",
-<<<<<<< HEAD
-=======
-=======
     "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -237,11 +141,13 @@
         "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\ProyectoCS-CDatos.csproj",
         "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CDatos\\obj\\",
->>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -287,44 +193,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
-    "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
-        "projectName": "ProyectoCS-CVista",
-        "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
-        "packagesPath": "C:\\Users\\nava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\ProyectoCS-CVista\\obj\\",
-<<<<<<< HEAD
-=======
-=======
     "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -333,11 +210,13 @@
         "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CVista\\ProyectoCS-CVista.csproj",
         "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\ProyectoCS-CVista\\obj\\",
->>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -351,18 +230,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj": {
-                "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj"
-=======
-<<<<<<< HEAD
-              "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj": {
-                "projectPath": "C:\\Users\\nava\\source\\repos\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj"
-=======
               "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj": {
                 "projectPath": "C:\\Users\\steve\\Documents\\GitHub\\Proyecto_CS\\Proyecto-CS-CNegocio\\ProyectoCS-CNegocio.csproj"
->>>>>>> 9fd7f5bfe25a725770375819ce7c95b99f13d371
->>>>>>> c5673987ec3d3a8de90717816d13b75b1c4729d0
               }
             }
           }
@@ -387,24 +256,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.24, 6.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -413,7 +264,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
